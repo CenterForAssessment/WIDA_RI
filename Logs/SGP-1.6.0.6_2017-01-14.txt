@@ -1,0 +1,3037 @@
+
+Started abcSGP Saturday January 14 16:02:43 2017
+
+
+	abcSGP(
+		 sgp_object = WIDA_RI_Data_LONG
+		steps = c("prepareSGP", "analyzeSGP", "combineSGP", "visualizeSGP", "outputSGP")
+		sgp.percentiles = FALSE
+		sgp.projections = FALSE
+		sgp.projections.lagged = FALSE
+		sgp.percentiles.baseline = TRUE
+		sgp.projections.baseline = TRUE
+		sgp.projections.lagged.baseline = TRUE
+		sgp.target.scale.scores = TRUE
+		parallel.config = list(BACKEND = "PARALLEL", WORKERS = list(PERCENTILES = 4, BASELINE_PERCENTILES = 4, PROJECTIONS = 4, LAGGED_PROJECTIONS = 4, SGP_SCALE_SCORE_TARGETS = 4, GA_PLOTS = 1, SG_PLOTS = 1))
+		sgPlot.demo.report = TRUE
+		plot.types = c("growthAchievementPlot", "studentGrowthPlot")
+		get.cohort.data.info = TRUE )
+
+
+Started prepareSGP Saturday January 14 16:02:44 2017
+
+
+	prepareSGP(
+		 data = sgp_object
+		data_supplementary = data_supplementary
+		state = state
+		var.names = prepareSGP.var.names
+		create.additional.variables = prepareSGP.create.additional.variables )
+
+Finished prepareSGP Saturday January 14 16:02:44 2017 in 0.053 Seconds 
+
+	CSEMs are required in SGPstateData to simulate SGPs for confidence interval calculations. Confidence intervals will not be calculated.
+
+Started analyzeSGP Saturday January 14 16:02:44 2017
+
+
+	analyzeSGP(
+		 sgp_object = sgp_object
+		state = state
+		years = years
+		content_areas = content_areas
+		grades = grades
+		sgp.percentiles = sgp.percentiles
+		sgp.projections = sgp.projections
+		sgp.projections.lagged = sgp.projections.lagged
+		sgp.percentiles.baseline = sgp.percentiles.baseline
+		sgp.projections.baseline = sgp.projections.baseline
+		sgp.projections.lagged.baseline = sgp.projections.lagged.baseline
+		sgp.minimum.default.panel.years = sgp.minimum.default.panel.years
+		sgp.use.my.coefficient.matrices = sgp.use.my.coefficient.matrices
+		sgp.test.cohort.size = sgp.test.cohort.size
+		return.sgp.test.results = return.sgp.test.results
+		simulate.sgps = simulate.sgps
+		calculate.simex = calculate.simex
+		calculate.simex.baseline = calculate.simex.baseline
+		goodness.of.fit.print = goodness.of.fit.print
+		sgp.config = sgp.config
+		parallel.config = parallel.config
+		verbose.output = verbose.output
+		get.cohort.data.info = get.cohort.data.info
+		sgp.sqlite = sgp.sqlite
+		sgp.percentiles.equated = sgp.percentiles.equated
+		sgp.percentiles.equating.method = sgp.percentiles.equating.method
+		sgp.percentiles.calculate.sgps = sgp.percentiles.calculate.sgps
+		SGPt = SGPt )
+
+
+Started abcSGP Saturday January 14 16:20:45 2017
+
+
+	abcSGP(
+		 sgp_object = WIDA_RI_Data_LONG
+		steps = c("prepareSGP", "analyzeSGP", "combineSGP", "visualizeSGP", "outputSGP")
+		sgp.percentiles = FALSE
+		sgp.projections = FALSE
+		sgp.projections.lagged = FALSE
+		sgp.percentiles.baseline = TRUE
+		sgp.projections.baseline = TRUE
+		sgp.projections.lagged.baseline = TRUE
+		sgp.target.scale.scores = TRUE
+		parallel.config = list(BACKEND = "PARALLEL", WORKERS = list(PERCENTILES = 4, BASELINE_PERCENTILES = 4, PROJECTIONS = 4, LAGGED_PROJECTIONS = 4, SGP_SCALE_SCORE_TARGETS = 4, GA_PLOTS = 1, SG_PLOTS = 1))
+		sgPlot.demo.report = TRUE
+		plot.types = c("growthAchievementPlot", "studentGrowthPlot")
+		get.cohort.data.info = TRUE )
+
+
+Started prepareSGP Saturday January 14 16:20:46 2017
+
+
+	prepareSGP(
+		 data = sgp_object
+		data_supplementary = data_supplementary
+		state = state
+		var.names = prepareSGP.var.names
+		create.additional.variables = prepareSGP.create.additional.variables )
+
+Finished prepareSGP Saturday January 14 16:20:46 2017 in 0.071 Seconds 
+
+	CSEMs are required in SGPstateData to simulate SGPs for confidence interval calculations. Confidence intervals will not be calculated.
+
+Started analyzeSGP Saturday January 14 16:20:46 2017
+
+
+	analyzeSGP(
+		 sgp_object = sgp_object
+		state = state
+		years = years
+		content_areas = content_areas
+		grades = grades
+		sgp.percentiles = sgp.percentiles
+		sgp.projections = sgp.projections
+		sgp.projections.lagged = sgp.projections.lagged
+		sgp.percentiles.baseline = sgp.percentiles.baseline
+		sgp.projections.baseline = sgp.projections.baseline
+		sgp.projections.lagged.baseline = sgp.projections.lagged.baseline
+		sgp.minimum.default.panel.years = sgp.minimum.default.panel.years
+		sgp.use.my.coefficient.matrices = sgp.use.my.coefficient.matrices
+		sgp.test.cohort.size = sgp.test.cohort.size
+		return.sgp.test.results = return.sgp.test.results
+		simulate.sgps = simulate.sgps
+		calculate.simex = calculate.simex
+		calculate.simex.baseline = calculate.simex.baseline
+		goodness.of.fit.print = goodness.of.fit.print
+		sgp.config = sgp.config
+		parallel.config = parallel.config
+		verbose.output = verbose.output
+		get.cohort.data.info = get.cohort.data.info
+		sgp.sqlite = sgp.sqlite
+		sgp.percentiles.equated = sgp.percentiles.equated
+		sgp.percentiles.equating.method = sgp.percentiles.equating.method
+		sgp.percentiles.calculate.sgps = sgp.percentiles.calculate.sgps
+		SGPt = SGPt )
+
+
+Started abcSGP Saturday January 14 16:22:52 2017
+
+
+	abcSGP(
+		 sgp_object = WIDA_RI_Data_LONG
+		steps = c("prepareSGP", "analyzeSGP", "combineSGP", "visualizeSGP", "outputSGP")
+		sgp.percentiles = FALSE
+		sgp.projections = FALSE
+		sgp.projections.lagged = FALSE
+		sgp.percentiles.baseline = TRUE
+		sgp.projections.baseline = TRUE
+		sgp.projections.lagged.baseline = TRUE
+		sgp.target.scale.scores = TRUE
+		parallel.config = list(BACKEND = "PARALLEL", WORKERS = list(PERCENTILES = 4, BASELINE_PERCENTILES = 4, PROJECTIONS = 4, LAGGED_PROJECTIONS = 4, SGP_SCALE_SCORE_TARGETS = 4, GA_PLOTS = 1, SG_PLOTS = 1))
+		sgPlot.demo.report = TRUE
+		plot.types = c("growthAchievementPlot", "studentGrowthPlot")
+		get.cohort.data.info = TRUE )
+
+
+Started prepareSGP Saturday January 14 16:22:53 2017
+
+
+	prepareSGP(
+		 data = sgp_object
+		data_supplementary = data_supplementary
+		state = state
+		var.names = prepareSGP.var.names
+		create.additional.variables = prepareSGP.create.additional.variables )
+
+Finished prepareSGP Saturday January 14 16:22:53 2017 in 0.076 Seconds 
+
+	CSEMs are required in SGPstateData to simulate SGPs for confidence interval calculations. Confidence intervals will not be calculated.
+
+Started analyzeSGP Saturday January 14 16:22:53 2017
+
+
+	analyzeSGP(
+		 sgp_object = sgp_object
+		state = state
+		years = years
+		content_areas = content_areas
+		grades = grades
+		sgp.percentiles = sgp.percentiles
+		sgp.projections = sgp.projections
+		sgp.projections.lagged = sgp.projections.lagged
+		sgp.percentiles.baseline = sgp.percentiles.baseline
+		sgp.projections.baseline = sgp.projections.baseline
+		sgp.projections.lagged.baseline = sgp.projections.lagged.baseline
+		sgp.minimum.default.panel.years = sgp.minimum.default.panel.years
+		sgp.use.my.coefficient.matrices = sgp.use.my.coefficient.matrices
+		sgp.test.cohort.size = sgp.test.cohort.size
+		return.sgp.test.results = return.sgp.test.results
+		simulate.sgps = simulate.sgps
+		calculate.simex = calculate.simex
+		calculate.simex.baseline = calculate.simex.baseline
+		goodness.of.fit.print = goodness.of.fit.print
+		sgp.config = sgp.config
+		parallel.config = parallel.config
+		verbose.output = verbose.output
+		get.cohort.data.info = get.cohort.data.info
+		sgp.sqlite = sgp.sqlite
+		sgp.percentiles.equated = sgp.percentiles.equated
+		sgp.percentiles.equating.method = sgp.percentiles.equating.method
+		sgp.percentiles.calculate.sgps = sgp.percentiles.calculate.sgps
+		SGPt = SGPt )
+
+
+Started abcSGP Saturday January 14 16:47:15 2017
+
+
+	abcSGP(
+		 sgp_object = WIDA_RI_Data_LONG
+		steps = c("prepareSGP", "analyzeSGP", "combineSGP", "visualizeSGP", "outputSGP")
+		sgp.percentiles = FALSE
+		sgp.projections = FALSE
+		sgp.projections.lagged = FALSE
+		sgp.percentiles.baseline = TRUE
+		sgp.projections.baseline = TRUE
+		sgp.projections.lagged.baseline = TRUE
+		sgp.target.scale.scores = TRUE
+		parallel.config = list(BACKEND = "PARALLEL", WORKERS = list(PERCENTILES = 4, BASELINE_PERCENTILES = 4, PROJECTIONS = 4, LAGGED_PROJECTIONS = 4, SGP_SCALE_SCORE_TARGETS = 4, GA_PLOTS = 1, SG_PLOTS = 1))
+		sgPlot.demo.report = TRUE
+		plot.types = c("growthAchievementPlot", "studentGrowthPlot")
+		get.cohort.data.info = TRUE )
+
+
+Started prepareSGP Saturday January 14 16:47:15 2017
+
+
+	prepareSGP(
+		 data = sgp_object
+		data_supplementary = data_supplementary
+		state = state
+		var.names = prepareSGP.var.names
+		create.additional.variables = prepareSGP.create.additional.variables )
+
+Finished prepareSGP Saturday January 14 16:47:15 2017 in 0.077 Seconds 
+
+	CSEMs are required in SGPstateData to simulate SGPs for confidence interval calculations. Confidence intervals will not be calculated.
+
+Started analyzeSGP Saturday January 14 16:47:15 2017
+
+
+	analyzeSGP(
+		 sgp_object = sgp_object
+		state = state
+		years = years
+		content_areas = content_areas
+		grades = grades
+		sgp.percentiles = sgp.percentiles
+		sgp.projections = sgp.projections
+		sgp.projections.lagged = sgp.projections.lagged
+		sgp.percentiles.baseline = sgp.percentiles.baseline
+		sgp.projections.baseline = sgp.projections.baseline
+		sgp.projections.lagged.baseline = sgp.projections.lagged.baseline
+		sgp.minimum.default.panel.years = sgp.minimum.default.panel.years
+		sgp.use.my.coefficient.matrices = sgp.use.my.coefficient.matrices
+		sgp.test.cohort.size = sgp.test.cohort.size
+		return.sgp.test.results = return.sgp.test.results
+		simulate.sgps = simulate.sgps
+		calculate.simex = calculate.simex
+		calculate.simex.baseline = calculate.simex.baseline
+		goodness.of.fit.print = goodness.of.fit.print
+		sgp.config = sgp.config
+		parallel.config = parallel.config
+		verbose.output = verbose.output
+		get.cohort.data.info = get.cohort.data.info
+		sgp.sqlite = sgp.sqlite
+		sgp.percentiles.equated = sgp.percentiles.equated
+		sgp.percentiles.equating.method = sgp.percentiles.equating.method
+		sgp.percentiles.calculate.sgps = sgp.percentiles.calculate.sgps
+		SGPt = SGPt )
+
+
+Started abcSGP Saturday January 14 16:49:54 2017
+
+
+	abcSGP(
+		 sgp_object = WIDA_RI_Data_LONG
+		steps = c("prepareSGP", "analyzeSGP", "combineSGP", "visualizeSGP", "outputSGP")
+		sgp.percentiles = FALSE
+		sgp.projections = FALSE
+		sgp.projections.lagged = FALSE
+		sgp.percentiles.baseline = TRUE
+		sgp.projections.baseline = TRUE
+		sgp.projections.lagged.baseline = TRUE
+		sgp.target.scale.scores = TRUE
+		parallel.config = list(BACKEND = "PARALLEL", WORKERS = list(PERCENTILES = 4, BASELINE_PERCENTILES = 4, PROJECTIONS = 4, LAGGED_PROJECTIONS = 4, SGP_SCALE_SCORE_TARGETS = 4, GA_PLOTS = 1, SG_PLOTS = 1))
+		sgPlot.demo.report = TRUE
+		plot.types = c("growthAchievementPlot", "studentGrowthPlot")
+		get.cohort.data.info = TRUE )
+
+
+Started prepareSGP Saturday January 14 16:49:55 2017
+
+
+	prepareSGP(
+		 data = sgp_object
+		data_supplementary = data_supplementary
+		state = state
+		var.names = prepareSGP.var.names
+		create.additional.variables = prepareSGP.create.additional.variables )
+
+Finished prepareSGP Saturday January 14 16:49:55 2017 in 0.051 Seconds 
+
+	CSEMs are required in SGPstateData to simulate SGPs for confidence interval calculations. Confidence intervals will not be calculated.
+
+Started analyzeSGP Saturday January 14 16:49:55 2017
+
+
+	analyzeSGP(
+		 sgp_object = sgp_object
+		state = state
+		years = years
+		content_areas = content_areas
+		grades = grades
+		sgp.percentiles = sgp.percentiles
+		sgp.projections = sgp.projections
+		sgp.projections.lagged = sgp.projections.lagged
+		sgp.percentiles.baseline = sgp.percentiles.baseline
+		sgp.projections.baseline = sgp.projections.baseline
+		sgp.projections.lagged.baseline = sgp.projections.lagged.baseline
+		sgp.minimum.default.panel.years = sgp.minimum.default.panel.years
+		sgp.use.my.coefficient.matrices = sgp.use.my.coefficient.matrices
+		sgp.test.cohort.size = sgp.test.cohort.size
+		return.sgp.test.results = return.sgp.test.results
+		simulate.sgps = simulate.sgps
+		calculate.simex = calculate.simex
+		calculate.simex.baseline = calculate.simex.baseline
+		goodness.of.fit.print = goodness.of.fit.print
+		sgp.config = sgp.config
+		parallel.config = parallel.config
+		verbose.output = verbose.output
+		get.cohort.data.info = get.cohort.data.info
+		sgp.sqlite = sgp.sqlite
+		sgp.percentiles.equated = sgp.percentiles.equated
+		sgp.percentiles.equating.method = sgp.percentiles.equating.method
+		sgp.percentiles.calculate.sgps = sgp.percentiles.calculate.sgps
+		SGPt = SGPt )
+
+	NOTE: Cohort data information saved to 'Logs/cohort_data_info.Rdata'.
+	NOTE: Due to small number of cases (210) no goodness of fit plots produced.
+	Started studentGrowthPercentiles: Saturday January 14 16:49:57 2017
+		Content Area: READING, Year: 2013, Grade Progression: 10, 11, 12 BASELINE (N=210)
+	Finished studentGrowthPercentiles: Saturday January 14 16:49:57 2017 in 0.127 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:49:57 2017
+		Content Area: READING, Year: 2013, Grade Progression: 9, 10, 11 BASELINE (N=257)
+	Started studentGrowthPercentiles: Saturday January 14 16:49:57 2017
+	Started studentGrowthPercentiles: Saturday January 14 16:49:57 2017
+	Finished studentGrowthPercentiles: Saturday January 14 16:49:58 2017 in 0.319 Seconds
+
+		Content Area: READING, Year: 2013, Grade Progression: 8, 9, 10 BASELINE (N=291)
+		Content Area: READING, Year: 2013, Grade Progression: 7, 8, 9 BASELINE (N=299)
+	Finished studentGrowthPercentiles: Saturday January 14 16:49:58 2017 in 0.321 Seconds
+
+	Finished studentGrowthPercentiles: Saturday January 14 16:49:58 2017 in 0.321 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:49:57 2017
+		Content Area: READING, Year: 2013, Grade Progression: 6, 7, 8 BASELINE (N=359)
+	Finished studentGrowthPercentiles: Saturday January 14 16:49:58 2017 in 0.345 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:49:58 2017
+		Content Area: READING, Year: 2013, Grade Progression: 3, 4, 5 BASELINE (N=451)
+	Finished studentGrowthPercentiles: Saturday January 14 16:49:58 2017 in 0.34 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:49:58 2017
+		Content Area: READING, Year: 2013, Grade Progression: 5, 6, 7 BASELINE (N=367)
+	Finished studentGrowthPercentiles: Saturday January 14 16:49:58 2017 in 0.373 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:49:58 2017
+		Content Area: READING, Year: 2013, Grade Progression: 4, 5, 6 BASELINE (N=405)
+	Finished studentGrowthPercentiles: Saturday January 14 16:49:58 2017 in 0.378 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:49:58 2017
+		Content Area: READING, Year: 2013, Grade Progression: 3, 4 BASELINE (N=625)
+	Finished studentGrowthPercentiles: Saturday January 14 16:49:58 2017 in 0.385 Seconds
+
+	NOTE: Due to small number of cases (223) no goodness of fit plots produced.
+	Started studentGrowthPercentiles: Saturday January 14 16:49:58 2017
+		Content Area: READING, Year: 2013, Grade Progression: 0, 1 BASELINE (N=763)
+	Started studentGrowthPercentiles: Saturday January 14 16:49:58 2017
+	Finished studentGrowthPercentiles: Saturday January 14 16:49:58 2017 in 0.335 Seconds
+
+		Content Area: READING, Year: 2014, Grade Progression: 10, 11, 12 BASELINE (N=223)
+	Started studentGrowthPercentiles: Saturday January 14 16:49:58 2017
+	Finished studentGrowthPercentiles: Saturday January 14 16:49:58 2017 in 0.139 Seconds
+		Content Area: READING, Year: 2013, Grade Progression: 1, 2, 3 BASELINE (N=787)
+
+	Finished studentGrowthPercentiles: Saturday January 14 16:49:58 2017 in 0.404 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:49:58 2017
+		Content Area: READING, Year: 2013, Grade Progression: 0, 1, 2 BASELINE (N=887)
+	Finished studentGrowthPercentiles: Saturday January 14 16:49:58 2017 in 0.429 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:49:58 2017
+		Content Area: READING, Year: 2014, Grade Progression: 8, 9, 10 BASELINE (N=309)
+	Finished studentGrowthPercentiles: Saturday January 14 16:49:59 2017 in 0.351 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:49:58 2017
+		Content Area: READING, Year: 2014, Grade Progression: 9, 10, 11 BASELINE (N=273)
+	Finished studentGrowthPercentiles: Saturday January 14 16:49:59 2017 in 0.366 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:49:59 2017
+		Content Area: READING, Year: 2014, Grade Progression: 7, 8, 9 BASELINE (N=330)
+	Finished studentGrowthPercentiles: Saturday January 14 16:49:59 2017 in 0.355 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:49:59 2017
+		Content Area: READING, Year: 2014, Grade Progression: 6, 7, 8 BASELINE (N=376)
+	Finished studentGrowthPercentiles: Saturday January 14 16:49:59 2017 in 0.357 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:49:59 2017
+		Content Area: READING, Year: 2014, Grade Progression: 5, 6, 7 BASELINE (N=422)
+	Finished studentGrowthPercentiles: Saturday January 14 16:49:59 2017 in 0.338 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:49:59 2017
+		Content Area: READING, Year: 2014, Grade Progression: 4, 5, 6 BASELINE (N=394)
+	Finished studentGrowthPercentiles: Saturday January 14 16:49:59 2017 in 0.337 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:49:59 2017
+		Content Area: READING, Year: 2014, Grade Progression: 3, 4, 5 BASELINE (N=473)
+	Started studentGrowthPercentiles: Saturday January 14 16:49:59 2017
+		Content Area: READING, Year: 2014, Grade Progression: 3, 4 BASELINE (N=651)
+	Finished studentGrowthPercentiles: Saturday January 14 16:49:59 2017 in 0.359 Seconds
+
+	Finished studentGrowthPercentiles: Saturday January 14 16:49:59 2017 in 0.338 Seconds
+
+	NOTE: Due to small number of cases (199) no goodness of fit plots produced.
+	Started studentGrowthPercentiles: Saturday January 14 16:49:59 2017
+		Content Area: READING, Year: 2015, Grade Progression: 10, 11, 12 BASELINE (N=199)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:00 2017 in 0.143 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:49:59 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0, 1 BASELINE (N=1,125)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:00 2017 in 0.353 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:49:59 2017
+		Content Area: READING, Year: 2014, Grade Progression: 1, 2, 3 BASELINE (N=886)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:00 2017 in 0.44 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:49:59 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0, 1, 2 BASELINE (N=847)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:00 2017 in 0.421 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:50:00 2017
+		Content Area: READING, Year: 2015, Grade Progression: 9, 10, 11 BASELINE (N=286)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:00 2017 in 0.369 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:50:00 2017
+		Content Area: READING, Year: 2015, Grade Progression: 8, 9, 10 BASELINE (N=323)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:00 2017 in 0.365 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:50:00 2017
+		Content Area: READING, Year: 2015, Grade Progression: 7, 8, 9 BASELINE (N=360)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:00 2017 in 0.376 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:50:00 2017
+		Content Area: READING, Year: 2015, Grade Progression: 6, 7, 8 BASELINE (N=435)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:00 2017 in 0.404 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:50:00 2017
+		Content Area: READING, Year: 2015, Grade Progression: 5, 6, 7 BASELINE (N=428)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:00 2017 in 0.428 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:50:00 2017
+		Content Area: READING, Year: 2015, Grade Progression: 4, 5, 6 BASELINE (N=408)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:01 2017 in 0.418 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:50:00 2017
+	Started studentGrowthPercentiles: Saturday January 14 16:50:00 2017
+		Content Area: READING, Year: 2015, Grade Progression: 3, 4, 5 BASELINE (N=463)
+		Content Area: READING, Year: 2015, Grade Progression: 3, 4 BASELINE (N=662)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:01 2017 in 0.425 Seconds
+
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:01 2017 in 0.399 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:50:01 2017
+		Content Area: READING, Year: 2015, Grade Progression: 1, 2, 3 BASELINE (N=921)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:01 2017 in 0.413 Seconds
+
+	NOTE: Due to small number of cases (219) no goodness of fit plots produced.
+	Started studentGrowthPercentiles: Saturday January 14 16:50:01 2017
+		Content Area: READING, Year: 2016, Grade Progression: 10, 11, 12 BASELINE (N=219)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:01 2017 in 0.206 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:50:01 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0, 1, 2 BASELINE (N=1,142)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:01 2017 in 0.457 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:50:01 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0, 1 BASELINE (N=1,064)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:01 2017 in 0.417 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:50:01 2017
+		Content Area: READING, Year: 2016, Grade Progression: 9, 10, 11 BASELINE (N=256)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:01 2017 in 0.43 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:50:01 2017
+		Content Area: READING, Year: 2016, Grade Progression: 8, 9, 10 BASELINE (N=410)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:02 2017 in 0.456 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:50:01 2017
+		Content Area: READING, Year: 2016, Grade Progression: 7, 8, 9 BASELINE (N=454)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:02 2017 in 0.434 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:50:01 2017
+		Content Area: READING, Year: 2016, Grade Progression: 6, 7, 8 BASELINE (N=485)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:02 2017 in 0.441 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:50:01 2017
+		Content Area: READING, Year: 2016, Grade Progression: 5, 6, 7 BASELINE (N=450)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:02 2017 in 0.454 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:50:02 2017
+		Content Area: READING, Year: 2016, Grade Progression: 4, 5, 6 BASELINE (N=394)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:02 2017 in 0.44 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:50:02 2017
+		Content Area: READING, Year: 2016, Grade Progression: 3, 4 BASELINE (N=644)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:02 2017 in 0.397 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:50:02 2017
+		Content Area: READING, Year: 2016, Grade Progression: 3, 4, 5 BASELINE (N=499)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:02 2017 in 0.442 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:50:02 2017
+		Content Area: READING, Year: 2016, Grade Progression: 1, 2, 3 BASELINE (N=1,040)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:02 2017 in 0.482 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:50:02 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0, 1, 2 BASELINE (N=1,088)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:03 2017 in 0.464 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:50:02 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0, 1 BASELINE (N=988)
+	Finished studentGrowthPercentiles: Saturday January 14 16:50:03 2017 in 0.406 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:03 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0 BASELINE (N=1,165)
+	Finished studentGrowthProjections: Saturday January 14 16:50:09 2017 in 6.15 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:03 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0, 1 BASELINE (N=1,215)
+	Finished studentGrowthProjections: Saturday January 14 16:50:11 2017 in 7.656 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:03 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0, 1, 2 BASELINE (N=1,303)
+	Finished studentGrowthProjections: Saturday January 14 16:50:12 2017 in 9.067 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:03 2017
+		Content Area: READING, Year: 2016, Grade Progression: 1, 2, 3 BASELINE (N=1,208)
+	Finished studentGrowthProjections: Saturday January 14 16:50:12 2017 in 9.254 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:12 2017
+		Content Area: READING, Year: 2016, Grade Progression: 5, 6, 7 BASELINE (N=589)
+	Finished studentGrowthProjections: Saturday January 14 16:50:17 2017 in 5.109 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:12 2017
+		Content Area: READING, Year: 2016, Grade Progression: 4, 5, 6 BASELINE (N=558)
+	Finished studentGrowthProjections: Saturday January 14 16:50:18 2017 in 5.885 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:09 2017
+		Content Area: READING, Year: 2016, Grade Progression: 2, 3, 4 BASELINE (N=837)
+	Finished studentGrowthProjections: Saturday January 14 16:50:18 2017 in 9.029 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:11 2017
+		Content Area: READING, Year: 2016, Grade Progression: 3, 4, 5 BASELINE (N=664)
+	Finished studentGrowthProjections: Saturday January 14 16:50:18 2017 in 7.733 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:19 2017
+		Content Area: READING, Year: 2016, Grade Progression: 9, 10, 11 BASELINE (N=390)
+	Finished studentGrowthProjections: Saturday January 14 16:50:20 2017 in 1.393 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:18 2017
+		Content Area: READING, Year: 2016, Grade Progression: 8, 9, 10 BASELINE (N=598)
+	Finished studentGrowthProjections: Saturday January 14 16:50:21 2017 in 2.44 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:18 2017
+		Content Area: READING, Year: 2016, Grade Progression: 6, 7, 8 BASELINE (N=668)
+	Finished studentGrowthProjections: Saturday January 14 16:50:22 2017 in 4.476 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:18 2017
+		Content Area: READING, Year: 2016, Grade Progression: 7, 8, 9 BASELINE (N=905)
+	Finished studentGrowthProjections: Saturday January 14 16:50:22 2017 in 4.049 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:20 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0 BASELINE (N=1,160)
+	Finished studentGrowthProjections: Saturday January 14 16:50:27 2017 in 7.079 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:21 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0, 1 BASELINE (N=1,291)
+	Finished studentGrowthProjections: Saturday January 14 16:50:29 2017 in 7.852 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:22 2017
+		Content Area: READING, Year: 2015, Grade Progression: 1, 2, 3 BASELINE (N=1,096)
+	Finished studentGrowthProjections: Saturday January 14 16:50:29 2017 in 7.118 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:22 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0, 1, 2 BASELINE (N=1,339)
+	Finished studentGrowthProjections: Saturday January 14 16:50:30 2017 in 8.196 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:28 2017
+		Content Area: READING, Year: 2015, Grade Progression: 2, 3, 4 BASELINE (N=835)
+	Finished studentGrowthProjections: Saturday January 14 16:50:33 2017 in 5.351 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:29 2017
+		Content Area: READING, Year: 2015, Grade Progression: 4, 5, 6 BASELINE (N=556)
+	Finished studentGrowthProjections: Saturday January 14 16:50:34 2017 in 4.296 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:30 2017
+		Content Area: READING, Year: 2015, Grade Progression: 5, 6, 7 BASELINE (N=597)
+	Finished studentGrowthProjections: Saturday January 14 16:50:34 2017 in 4.019 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:29 2017
+		Content Area: READING, Year: 2015, Grade Progression: 3, 4, 5 BASELINE (N=608)
+	Finished studentGrowthProjections: Saturday January 14 16:50:35 2017 in 5.551 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:35 2017
+		Content Area: READING, Year: 2015, Grade Progression: 9, 10, 11 BASELINE (N=386)
+	Finished studentGrowthProjections: Saturday January 14 16:50:36 2017 in 1.386 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:34 2017
+		Content Area: READING, Year: 2015, Grade Progression: 8, 9, 10 BASELINE (N=476)
+	Finished studentGrowthProjections: Saturday January 14 16:50:36 2017 in 1.988 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:33 2017
+		Content Area: READING, Year: 2015, Grade Progression: 6, 7, 8 BASELINE (N=600)
+	Finished studentGrowthProjections: Saturday January 14 16:50:37 2017 in 4.037 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:34 2017
+		Content Area: READING, Year: 2015, Grade Progression: 7, 8, 9 BASELINE (N=722)
+	Finished studentGrowthProjections: Saturday January 14 16:50:37 2017 in 3.419 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:36 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0 BASELINE (N=1,223)
+	Finished studentGrowthProjections: Saturday January 14 16:50:44 2017 in 7.554 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:37 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0, 1 BASELINE (N=1,327)
+	Finished studentGrowthProjections: Saturday January 14 16:50:46 2017 in 9.533 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:37 2017
+		Content Area: READING, Year: 2014, Grade Progression: 1, 2, 3 BASELINE (N=1,095)
+	Finished studentGrowthProjections: Saturday January 14 16:50:46 2017 in 8.915 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:37 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0, 1, 2 BASELINE (N=1,117)
+	Finished studentGrowthProjections: Saturday January 14 16:50:46 2017 in 9.068 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:46 2017
+		Content Area: READING, Year: 2014, Grade Progression: 5, 6, 7 BASELINE (N=559)
+	Finished studentGrowthProjections: Saturday January 14 16:50:52 2017 in 5.22 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:46 2017
+		Content Area: READING, Year: 2014, Grade Progression: 4, 5, 6 BASELINE (N=547)
+	Finished studentGrowthProjections: Saturday January 14 16:50:52 2017 in 5.62 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:44 2017
+		Content Area: READING, Year: 2014, Grade Progression: 2, 3, 4 BASELINE (N=835)
+	Finished studentGrowthProjections: Saturday January 14 16:50:52 2017 in 8.364 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:46 2017
+		Content Area: READING, Year: 2014, Grade Progression: 3, 4, 5 BASELINE (N=647)
+	Finished studentGrowthProjections: Saturday January 14 16:50:53 2017 in 7 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:52 2017
+		Content Area: READING, Year: 2014, Grade Progression: 8, 9, 10 BASELINE (N=503)
+	Finished studentGrowthProjections: Saturday January 14 16:50:54 2017 in 1.789 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:53 2017
+		Content Area: READING, Year: 2014, Grade Progression: 9, 10, 11 BASELINE (N=377)
+	Finished studentGrowthProjections: Saturday January 14 16:50:54 2017 in 1.078 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:52 2017
+		Content Area: READING, Year: 2014, Grade Progression: 7, 8, 9 BASELINE (N=595)
+	Finished studentGrowthProjections: Saturday January 14 16:50:54 2017 in 2.448 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:52 2017
+		Content Area: READING, Year: 2014, Grade Progression: 6, 7, 8 BASELINE (N=516)
+	Finished studentGrowthProjections: Saturday January 14 16:50:55 2017 in 3.13 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:54 2017
+		Content Area: READING, Year: 2013, Grade Progression: 0, 1 BASELINE (N=956)
+	Finished studentGrowthProjections: Saturday January 14 16:51:00 2017 in 5.394 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:54 2017
+		Content Area: READING, Year: 2013, Grade Progression: 0 BASELINE (N=1,259)
+	Finished studentGrowthProjections: Saturday January 14 16:51:00 2017 in 5.781 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:55 2017
+		Content Area: READING, Year: 2013, Grade Progression: 1, 2 BASELINE (N=1,068)
+	Finished studentGrowthProjections: Saturday January 14 16:51:00 2017 in 5.92 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:50:55 2017
+		Content Area: READING, Year: 2013, Grade Progression: 2, 3 BASELINE (N=993)
+	Finished studentGrowthProjections: Saturday January 14 16:51:01 2017 in 5.71 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:51:01 2017
+		Content Area: READING, Year: 2013, Grade Progression: 6, 7 BASELINE (N=517)
+	Finished studentGrowthProjections: Saturday January 14 16:51:04 2017 in 3.003 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:51:01 2017
+		Content Area: READING, Year: 2013, Grade Progression: 5, 6 BASELINE (N=570)
+	Finished studentGrowthProjections: Saturday January 14 16:51:04 2017 in 3.717 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:51:00 2017
+		Content Area: READING, Year: 2013, Grade Progression: 4, 5 BASELINE (N=611)
+	Finished studentGrowthProjections: Saturday January 14 16:51:04 2017 in 4.24 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:51:00 2017
+		Content Area: READING, Year: 2013, Grade Progression: 3, 4 BASELINE (N=781)
+	Finished studentGrowthProjections: Saturday January 14 16:51:05 2017 in 5.249 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:51:04 2017
+		Content Area: READING, Year: 2013, Grade Progression: 9, 10 BASELINE (N=446)
+	Finished studentGrowthProjections: Saturday January 14 16:51:06 2017 in 1.584 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:51:05 2017
+		Content Area: READING, Year: 2013, Grade Progression: 10, 11 BASELINE (N=375)
+	Finished studentGrowthProjections: Saturday January 14 16:51:06 2017 in 1.195 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:51:04 2017
+		Content Area: READING, Year: 2013, Grade Progression: 7, 8 BASELINE (N=490)
+	Finished studentGrowthProjections: Saturday January 14 16:51:06 2017 in 2.588 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:51:04 2017
+		Content Area: READING, Year: 2013, Grade Progression: 8, 9 BASELINE (N=524)
+	Finished studentGrowthProjections: Saturday January 14 16:51:06 2017 in 2.034 Seconds
+
+Finished analyzeSGP Saturday January 14 16:51:22 2017 in 1 Minute, 27 Seconds 
+
+Started combineSGP Saturday January 14 16:51:22 2017
+
+Started abcSGP Saturday January 14 16:52:34 2017
+
+
+	abcSGP(
+		 sgp_object = WIDA_RI_Data_LONG
+		steps = c("prepareSGP", "analyzeSGP", "combineSGP", "visualizeSGP", "outputSGP")
+		sgp.percentiles = FALSE
+		sgp.projections = FALSE
+		sgp.projections.lagged = FALSE
+		sgp.percentiles.baseline = TRUE
+		sgp.projections.baseline = TRUE
+		sgp.projections.lagged.baseline = TRUE
+		sgp.target.scale.scores = TRUE
+		parallel.config = list(BACKEND = "PARALLEL", WORKERS = list(PERCENTILES = 4, BASELINE_PERCENTILES = 4, PROJECTIONS = 4, LAGGED_PROJECTIONS = 4, SGP_SCALE_SCORE_TARGETS = 4, GA_PLOTS = 1, SG_PLOTS = 1))
+		sgPlot.demo.report = TRUE
+		plot.types = c("growthAchievementPlot", "studentGrowthPlot")
+		get.cohort.data.info = TRUE )
+
+
+Started prepareSGP Saturday January 14 16:52:34 2017
+
+
+	prepareSGP(
+		 data = sgp_object
+		data_supplementary = data_supplementary
+		state = state
+		var.names = prepareSGP.var.names
+		create.additional.variables = prepareSGP.create.additional.variables )
+
+Finished prepareSGP Saturday January 14 16:52:34 2017 in 0.049 Seconds 
+
+	CSEMs are required in SGPstateData to simulate SGPs for confidence interval calculations. Confidence intervals will not be calculated.
+
+Started analyzeSGP Saturday January 14 16:52:41 2017
+
+
+	analyzeSGP(
+		 sgp_object = sgp_object
+		state = state
+		years = years
+		content_areas = content_areas
+		grades = grades
+		sgp.percentiles = sgp.percentiles
+		sgp.projections = sgp.projections
+		sgp.projections.lagged = sgp.projections.lagged
+		sgp.percentiles.baseline = sgp.percentiles.baseline
+		sgp.projections.baseline = sgp.projections.baseline
+		sgp.projections.lagged.baseline = sgp.projections.lagged.baseline
+		sgp.minimum.default.panel.years = sgp.minimum.default.panel.years
+		sgp.use.my.coefficient.matrices = sgp.use.my.coefficient.matrices
+		sgp.test.cohort.size = sgp.test.cohort.size
+		return.sgp.test.results = return.sgp.test.results
+		simulate.sgps = simulate.sgps
+		calculate.simex = calculate.simex
+		calculate.simex.baseline = calculate.simex.baseline
+		goodness.of.fit.print = goodness.of.fit.print
+		sgp.config = sgp.config
+		parallel.config = parallel.config
+		verbose.output = verbose.output
+		get.cohort.data.info = get.cohort.data.info
+		sgp.sqlite = sgp.sqlite
+		sgp.percentiles.equated = sgp.percentiles.equated
+		sgp.percentiles.equating.method = sgp.percentiles.equating.method
+		sgp.percentiles.calculate.sgps = sgp.percentiles.calculate.sgps
+		SGPt = SGPt )
+
+	NOTE: Cohort data information saved to 'Logs/cohort_data_info.Rdata'.
+	NOTE: Due to small number of cases (210) no goodness of fit plots produced.
+	Started studentGrowthPercentiles: Saturday January 14 16:52:43 2017
+		Content Area: READING, Year: 2013, Grade Progression: 10, 11, 12 BASELINE (N=210)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:43 2017 in 0.081 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:43 2017
+		Content Area: READING, Year: 2013, Grade Progression: 9, 10, 11 BASELINE (N=257)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:44 2017 in 0.164 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:44 2017
+		Content Area: READING, Year: 2013, Grade Progression: 8, 9, 10 BASELINE (N=291)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:44 2017 in 0.167 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:44 2017
+		Content Area: READING, Year: 2013, Grade Progression: 7, 8, 9 BASELINE (N=299)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:44 2017 in 0.156 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:44 2017
+		Content Area: READING, Year: 2013, Grade Progression: 6, 7, 8 BASELINE (N=359)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:44 2017 in 0.154 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:44 2017
+		Content Area: READING, Year: 2013, Grade Progression: 5, 6, 7 BASELINE (N=367)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:44 2017 in 0.165 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:44 2017
+		Content Area: READING, Year: 2013, Grade Progression: 4, 5, 6 BASELINE (N=405)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:44 2017 in 0.167 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:44 2017
+		Content Area: READING, Year: 2013, Grade Progression: 3, 4, 5 BASELINE (N=451)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:45 2017 in 0.161 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:45 2017
+		Content Area: READING, Year: 2013, Grade Progression: 3, 4 BASELINE (N=625)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:45 2017 in 0.137 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:45 2017
+		Content Area: READING, Year: 2013, Grade Progression: 1, 2, 3 BASELINE (N=787)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:45 2017 in 0.164 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:45 2017
+		Content Area: READING, Year: 2013, Grade Progression: 0, 1, 2 BASELINE (N=887)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:45 2017 in 0.165 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:45 2017
+		Content Area: READING, Year: 2013, Grade Progression: 0, 1 BASELINE (N=763)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:45 2017 in 0.169 Seconds
+
+	NOTE: Due to small number of cases (223) no goodness of fit plots produced.
+	Started studentGrowthPercentiles: Saturday January 14 16:52:45 2017
+		Content Area: READING, Year: 2014, Grade Progression: 10, 11, 12 BASELINE (N=223)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:45 2017 in 0.092 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:45 2017
+		Content Area: READING, Year: 2014, Grade Progression: 9, 10, 11 BASELINE (N=273)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:45 2017 in 0.162 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:45 2017
+		Content Area: READING, Year: 2014, Grade Progression: 8, 9, 10 BASELINE (N=309)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:46 2017 in 0.16 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:46 2017
+		Content Area: READING, Year: 2014, Grade Progression: 7, 8, 9 BASELINE (N=330)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:46 2017 in 0.163 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:46 2017
+		Content Area: READING, Year: 2014, Grade Progression: 6, 7, 8 BASELINE (N=376)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:46 2017 in 0.173 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:46 2017
+		Content Area: READING, Year: 2014, Grade Progression: 5, 6, 7 BASELINE (N=422)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:46 2017 in 0.165 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:46 2017
+		Content Area: READING, Year: 2014, Grade Progression: 4, 5, 6 BASELINE (N=394)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:46 2017 in 0.17 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:46 2017
+		Content Area: READING, Year: 2014, Grade Progression: 3, 4, 5 BASELINE (N=473)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:47 2017 in 0.158 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:47 2017
+		Content Area: READING, Year: 2014, Grade Progression: 3, 4 BASELINE (N=651)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:47 2017 in 0.146 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:47 2017
+		Content Area: READING, Year: 2014, Grade Progression: 1, 2, 3 BASELINE (N=886)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:47 2017 in 0.176 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:47 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0, 1, 2 BASELINE (N=847)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:47 2017 in 0.175 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:47 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0, 1 BASELINE (N=1,125)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:47 2017 in 0.17 Seconds
+
+	NOTE: Due to small number of cases (199) no goodness of fit plots produced.
+	Started studentGrowthPercentiles: Saturday January 14 16:52:47 2017
+		Content Area: READING, Year: 2015, Grade Progression: 10, 11, 12 BASELINE (N=199)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:47 2017 in 0.097 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:47 2017
+		Content Area: READING, Year: 2015, Grade Progression: 9, 10, 11 BASELINE (N=286)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:48 2017 in 0.174 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:48 2017
+		Content Area: READING, Year: 2015, Grade Progression: 8, 9, 10 BASELINE (N=323)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:48 2017 in 0.16 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:48 2017
+		Content Area: READING, Year: 2015, Grade Progression: 7, 8, 9 BASELINE (N=360)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:48 2017 in 0.155 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:48 2017
+		Content Area: READING, Year: 2015, Grade Progression: 6, 7, 8 BASELINE (N=435)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:48 2017 in 0.162 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:48 2017
+		Content Area: READING, Year: 2015, Grade Progression: 5, 6, 7 BASELINE (N=428)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:48 2017 in 0.171 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:48 2017
+		Content Area: READING, Year: 2015, Grade Progression: 4, 5, 6 BASELINE (N=408)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:48 2017 in 0.166 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:48 2017
+		Content Area: READING, Year: 2015, Grade Progression: 3, 4, 5 BASELINE (N=463)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:49 2017 in 0.179 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:49 2017
+		Content Area: READING, Year: 2015, Grade Progression: 3, 4 BASELINE (N=662)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:49 2017 in 0.145 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:49 2017
+		Content Area: READING, Year: 2015, Grade Progression: 1, 2, 3 BASELINE (N=921)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:49 2017 in 0.185 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:49 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0, 1, 2 BASELINE (N=1,142)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:49 2017 in 0.336 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:49 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0, 1 BASELINE (N=1,064)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:50 2017 in 0.172 Seconds
+
+	NOTE: Due to small number of cases (219) no goodness of fit plots produced.
+	Started studentGrowthPercentiles: Saturday January 14 16:52:50 2017
+		Content Area: READING, Year: 2016, Grade Progression: 10, 11, 12 BASELINE (N=219)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:50 2017 in 0.096 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:50 2017
+		Content Area: READING, Year: 2016, Grade Progression: 9, 10, 11 BASELINE (N=256)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:50 2017 in 0.165 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:50 2017
+		Content Area: READING, Year: 2016, Grade Progression: 8, 9, 10 BASELINE (N=410)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:50 2017 in 0.159 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:50 2017
+		Content Area: READING, Year: 2016, Grade Progression: 7, 8, 9 BASELINE (N=454)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:50 2017 in 0.175 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:50 2017
+		Content Area: READING, Year: 2016, Grade Progression: 6, 7, 8 BASELINE (N=485)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:50 2017 in 0.169 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:50 2017
+		Content Area: READING, Year: 2016, Grade Progression: 5, 6, 7 BASELINE (N=450)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:51 2017 in 0.156 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:51 2017
+		Content Area: READING, Year: 2016, Grade Progression: 4, 5, 6 BASELINE (N=394)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:51 2017 in 0.158 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:51 2017
+		Content Area: READING, Year: 2016, Grade Progression: 3, 4, 5 BASELINE (N=499)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:51 2017 in 0.172 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:51 2017
+		Content Area: READING, Year: 2016, Grade Progression: 3, 4 BASELINE (N=644)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:51 2017 in 0.141 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:51 2017
+		Content Area: READING, Year: 2016, Grade Progression: 1, 2, 3 BASELINE (N=1,040)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:51 2017 in 0.193 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:51 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0, 1, 2 BASELINE (N=1,088)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:51 2017 in 0.194 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 16:52:51 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0, 1 BASELINE (N=988)
+	Finished studentGrowthPercentiles: Saturday January 14 16:52:52 2017 in 0.153 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:52:52 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0 BASELINE (N=1,165)
+	Finished studentGrowthProjections: Saturday January 14 16:52:55 2017 in 2.994 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:52:55 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0, 1 BASELINE (N=1,215)
+	Finished studentGrowthProjections: Saturday January 14 16:52:58 2017 in 3.045 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:52:58 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0, 1, 2 BASELINE (N=1,303)
+	Finished studentGrowthProjections: Saturday January 14 16:53:01 2017 in 3.659 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:01 2017
+		Content Area: READING, Year: 2016, Grade Progression: 1, 2, 3 BASELINE (N=1,208)
+	Finished studentGrowthProjections: Saturday January 14 16:53:05 2017 in 3.382 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:05 2017
+		Content Area: READING, Year: 2016, Grade Progression: 2, 3, 4 BASELINE (N=837)
+	Finished studentGrowthProjections: Saturday January 14 16:53:07 2017 in 2.554 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:07 2017
+		Content Area: READING, Year: 2016, Grade Progression: 3, 4, 5 BASELINE (N=664)
+	Finished studentGrowthProjections: Saturday January 14 16:53:10 2017 in 2.585 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:10 2017
+		Content Area: READING, Year: 2016, Grade Progression: 4, 5, 6 BASELINE (N=558)
+	Finished studentGrowthProjections: Saturday January 14 16:53:11 2017 in 1.512 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:11 2017
+		Content Area: READING, Year: 2016, Grade Progression: 5, 6, 7 BASELINE (N=589)
+	Finished studentGrowthProjections: Saturday January 14 16:53:13 2017 in 1.414 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:13 2017
+		Content Area: READING, Year: 2016, Grade Progression: 6, 7, 8 BASELINE (N=668)
+	Finished studentGrowthProjections: Saturday January 14 16:53:14 2017 in 1.051 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:14 2017
+		Content Area: READING, Year: 2016, Grade Progression: 7, 8, 9 BASELINE (N=905)
+	Finished studentGrowthProjections: Saturday January 14 16:53:15 2017 in 0.895 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:15 2017
+		Content Area: READING, Year: 2016, Grade Progression: 8, 9, 10 BASELINE (N=598)
+	Finished studentGrowthProjections: Saturday January 14 16:53:15 2017 in 0.551 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:15 2017
+		Content Area: READING, Year: 2016, Grade Progression: 9, 10, 11 BASELINE (N=390)
+	Finished studentGrowthProjections: Saturday January 14 16:53:16 2017 in 0.225 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:16 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0 BASELINE (N=1,160)
+	Finished studentGrowthProjections: Saturday January 14 16:53:18 2017 in 2.119 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:18 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0, 1 BASELINE (N=1,291)
+	Finished studentGrowthProjections: Saturday January 14 16:53:21 2017 in 2.921 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:21 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0, 1, 2 BASELINE (N=1,339)
+	Finished studentGrowthProjections: Saturday January 14 16:53:24 2017 in 3.341 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:24 2017
+		Content Area: READING, Year: 2015, Grade Progression: 1, 2, 3 BASELINE (N=1,096)
+	Finished studentGrowthProjections: Saturday January 14 16:53:27 2017 in 2.633 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:27 2017
+		Content Area: READING, Year: 2015, Grade Progression: 2, 3, 4 BASELINE (N=835)
+	Finished studentGrowthProjections: Saturday January 14 16:53:29 2017 in 2.308 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:29 2017
+		Content Area: READING, Year: 2015, Grade Progression: 3, 4, 5 BASELINE (N=608)
+	Finished studentGrowthProjections: Saturday January 14 16:53:31 2017 in 2.07 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:31 2017
+		Content Area: READING, Year: 2015, Grade Progression: 4, 5, 6 BASELINE (N=556)
+	Finished studentGrowthProjections: Saturday January 14 16:53:32 2017 in 1.468 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:33 2017
+		Content Area: READING, Year: 2015, Grade Progression: 5, 6, 7 BASELINE (N=597)
+	Finished studentGrowthProjections: Saturday January 14 16:53:34 2017 in 1.513 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:34 2017
+		Content Area: READING, Year: 2015, Grade Progression: 6, 7, 8 BASELINE (N=600)
+	Finished studentGrowthProjections: Saturday January 14 16:53:35 2017 in 1.13 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:35 2017
+		Content Area: READING, Year: 2015, Grade Progression: 7, 8, 9 BASELINE (N=722)
+	Finished studentGrowthProjections: Saturday January 14 16:53:36 2017 in 0.9 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:36 2017
+		Content Area: READING, Year: 2015, Grade Progression: 8, 9, 10 BASELINE (N=476)
+	Finished studentGrowthProjections: Saturday January 14 16:53:37 2017 in 0.476 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:37 2017
+		Content Area: READING, Year: 2015, Grade Progression: 9, 10, 11 BASELINE (N=386)
+	Finished studentGrowthProjections: Saturday January 14 16:53:37 2017 in 0.233 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:37 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0 BASELINE (N=1,223)
+	Finished studentGrowthProjections: Saturday January 14 16:53:40 2017 in 3.455 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:40 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0, 1 BASELINE (N=1,327)
+	Finished studentGrowthProjections: Saturday January 14 16:53:43 2017 in 3.157 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:43 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0, 1, 2 BASELINE (N=1,117)
+	Finished studentGrowthProjections: Saturday January 14 16:53:46 2017 in 2.728 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:46 2017
+		Content Area: READING, Year: 2014, Grade Progression: 1, 2, 3 BASELINE (N=1,095)
+	Finished studentGrowthProjections: Saturday January 14 16:53:49 2017 in 2.76 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:49 2017
+		Content Area: READING, Year: 2014, Grade Progression: 2, 3, 4 BASELINE (N=835)
+	Finished studentGrowthProjections: Saturday January 14 16:53:51 2017 in 2.26 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:51 2017
+		Content Area: READING, Year: 2014, Grade Progression: 3, 4, 5 BASELINE (N=647)
+	Finished studentGrowthProjections: Saturday January 14 16:53:53 2017 in 2.075 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:53 2017
+		Content Area: READING, Year: 2014, Grade Progression: 4, 5, 6 BASELINE (N=547)
+	Finished studentGrowthProjections: Saturday January 14 16:53:55 2017 in 1.705 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:55 2017
+		Content Area: READING, Year: 2014, Grade Progression: 5, 6, 7 BASELINE (N=559)
+	Finished studentGrowthProjections: Saturday January 14 16:53:57 2017 in 1.582 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:57 2017
+		Content Area: READING, Year: 2014, Grade Progression: 6, 7, 8 BASELINE (N=516)
+	Finished studentGrowthProjections: Saturday January 14 16:53:58 2017 in 1.107 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:58 2017
+		Content Area: READING, Year: 2014, Grade Progression: 7, 8, 9 BASELINE (N=595)
+	Finished studentGrowthProjections: Saturday January 14 16:53:59 2017 in 0.897 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:59 2017
+		Content Area: READING, Year: 2014, Grade Progression: 8, 9, 10 BASELINE (N=503)
+	Finished studentGrowthProjections: Saturday January 14 16:53:59 2017 in 0.605 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:53:59 2017
+		Content Area: READING, Year: 2014, Grade Progression: 9, 10, 11 BASELINE (N=377)
+	Finished studentGrowthProjections: Saturday January 14 16:54:00 2017 in 0.441 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:54:00 2017
+		Content Area: READING, Year: 2013, Grade Progression: 0 BASELINE (N=1,259)
+	Finished studentGrowthProjections: Saturday January 14 16:54:03 2017 in 3.765 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:54:03 2017
+		Content Area: READING, Year: 2013, Grade Progression: 0, 1 BASELINE (N=956)
+	Finished studentGrowthProjections: Saturday January 14 16:54:07 2017 in 3.119 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:54:07 2017
+		Content Area: READING, Year: 2013, Grade Progression: 1, 2 BASELINE (N=1,068)
+	Finished studentGrowthProjections: Saturday January 14 16:54:10 2017 in 3.63 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:54:10 2017
+		Content Area: READING, Year: 2013, Grade Progression: 2, 3 BASELINE (N=993)
+	Finished studentGrowthProjections: Saturday January 14 16:54:14 2017 in 3.329 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:54:14 2017
+		Content Area: READING, Year: 2013, Grade Progression: 3, 4 BASELINE (N=781)
+	Finished studentGrowthProjections: Saturday January 14 16:54:17 2017 in 3.072 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:54:17 2017
+		Content Area: READING, Year: 2013, Grade Progression: 4, 5 BASELINE (N=611)
+	Finished studentGrowthProjections: Saturday January 14 16:54:19 2017 in 2.439 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:54:19 2017
+		Content Area: READING, Year: 2013, Grade Progression: 5, 6 BASELINE (N=570)
+	Finished studentGrowthProjections: Saturday January 14 16:54:21 2017 in 2.021 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:54:21 2017
+		Content Area: READING, Year: 2013, Grade Progression: 6, 7 BASELINE (N=517)
+	Finished studentGrowthProjections: Saturday January 14 16:54:23 2017 in 1.592 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:54:23 2017
+		Content Area: READING, Year: 2013, Grade Progression: 7, 8 BASELINE (N=490)
+	Finished studentGrowthProjections: Saturday January 14 16:54:24 2017 in 1.2 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:54:24 2017
+		Content Area: READING, Year: 2013, Grade Progression: 8, 9 BASELINE (N=524)
+	Finished studentGrowthProjections: Saturday January 14 16:54:25 2017 in 0.915 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:54:25 2017
+		Content Area: READING, Year: 2013, Grade Progression: 9, 10 BASELINE (N=446)
+	Finished studentGrowthProjections: Saturday January 14 16:54:26 2017 in 0.771 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 16:54:26 2017
+		Content Area: READING, Year: 2013, Grade Progression: 10, 11 BASELINE (N=375)
+	Finished studentGrowthProjections: Saturday January 14 16:54:26 2017 in 0.304 Seconds
+
+
+Started abcSGP Saturday January 14 17:01:12 2017
+
+
+	abcSGP(
+		 sgp_object = WIDA_RI_Data_LONG
+		steps = c("prepareSGP", "analyzeSGP", "combineSGP", "visualizeSGP", "outputSGP")
+		sgp.percentiles = FALSE
+		sgp.projections = FALSE
+		sgp.projections.lagged = FALSE
+		sgp.percentiles.baseline = TRUE
+		sgp.projections.baseline = TRUE
+		sgp.projections.lagged.baseline = TRUE
+		sgp.target.scale.scores = TRUE
+		parallel.config = list(BACKEND = "PARALLEL", WORKERS = list(PERCENTILES = 4, BASELINE_PERCENTILES = 4, PROJECTIONS = 4, LAGGED_PROJECTIONS = 4, SGP_SCALE_SCORE_TARGETS = 4, GA_PLOTS = 1, SG_PLOTS = 1))
+		sgPlot.demo.report = TRUE
+		plot.types = c("growthAchievementPlot", "studentGrowthPlot")
+		get.cohort.data.info = TRUE )
+
+
+Started prepareSGP Saturday January 14 17:01:12 2017
+
+
+	prepareSGP(
+		 data = sgp_object
+		data_supplementary = data_supplementary
+		state = state
+		var.names = prepareSGP.var.names
+		create.additional.variables = prepareSGP.create.additional.variables )
+
+Finished prepareSGP Saturday January 14 17:01:12 2017 in 0.049 Seconds 
+
+	CSEMs are required in SGPstateData to simulate SGPs for confidence interval calculations. Confidence intervals will not be calculated.
+
+Started analyzeSGP Saturday January 14 17:01:20 2017
+
+
+	analyzeSGP(
+		 sgp_object = sgp_object
+		state = state
+		years = years
+		content_areas = content_areas
+		grades = grades
+		sgp.percentiles = sgp.percentiles
+		sgp.projections = sgp.projections
+		sgp.projections.lagged = sgp.projections.lagged
+		sgp.percentiles.baseline = sgp.percentiles.baseline
+		sgp.projections.baseline = sgp.projections.baseline
+		sgp.projections.lagged.baseline = sgp.projections.lagged.baseline
+		sgp.minimum.default.panel.years = sgp.minimum.default.panel.years
+		sgp.use.my.coefficient.matrices = sgp.use.my.coefficient.matrices
+		sgp.test.cohort.size = sgp.test.cohort.size
+		return.sgp.test.results = return.sgp.test.results
+		simulate.sgps = simulate.sgps
+		calculate.simex = calculate.simex
+		calculate.simex.baseline = calculate.simex.baseline
+		goodness.of.fit.print = goodness.of.fit.print
+		sgp.config = sgp.config
+		parallel.config = parallel.config
+		verbose.output = verbose.output
+		get.cohort.data.info = get.cohort.data.info
+		sgp.sqlite = sgp.sqlite
+		sgp.percentiles.equated = sgp.percentiles.equated
+		sgp.percentiles.equating.method = sgp.percentiles.equating.method
+		sgp.percentiles.calculate.sgps = sgp.percentiles.calculate.sgps
+		SGPt = SGPt )
+
+	NOTE: Cohort data information saved to 'Logs/cohort_data_info.Rdata'.
+	NOTE: Due to small number of cases (182) no goodness of fit plots produced.
+	Started studentGrowthPercentiles: Saturday January 14 17:01:23 2017
+		Content Area: READING, Year: 2012, Grade Progression: 11, 12 BASELINE (N=182)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:23 2017 in 0.075 Seconds
+
+	NOTE: Due to small number of cases (244) no goodness of fit plots produced.
+	Started studentGrowthPercentiles: Saturday January 14 17:01:23 2017
+		Content Area: READING, Year: 2012, Grade Progression: 10, 11 BASELINE (N=244)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:23 2017 in 0.078 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:23 2017
+		Content Area: READING, Year: 2012, Grade Progression: 9, 10 BASELINE (N=286)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:23 2017 in 0.159 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:23 2017
+		Content Area: READING, Year: 2012, Grade Progression: 8, 9 BASELINE (N=267)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:23 2017 in 0.142 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:23 2017
+		Content Area: READING, Year: 2012, Grade Progression: 7, 8 BASELINE (N=335)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:23 2017 in 0.147 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:23 2017
+		Content Area: READING, Year: 2012, Grade Progression: 6, 7 BASELINE (N=346)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:24 2017 in 0.15 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:24 2017
+		Content Area: READING, Year: 2012, Grade Progression: 5, 6 BASELINE (N=368)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:24 2017 in 0.146 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:24 2017
+		Content Area: READING, Year: 2012, Grade Progression: 4, 5 BASELINE (N=491)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:24 2017 in 0.154 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:24 2017
+		Content Area: READING, Year: 2012, Grade Progression: 3, 4 BASELINE (N=514)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:24 2017 in 0.158 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:24 2017
+		Content Area: READING, Year: 2012, Grade Progression: 2, 3 BASELINE (N=881)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:24 2017 in 0.164 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:24 2017
+		Content Area: READING, Year: 2012, Grade Progression: 1, 2 BASELINE (N=845)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:24 2017 in 0.158 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:24 2017
+		Content Area: READING, Year: 2012, Grade Progression: 0, 1 BASELINE (N=886)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:25 2017 in 0.192 Seconds
+
+	NOTE: Due to small number of cases (210) no goodness of fit plots produced.
+	Started studentGrowthPercentiles: Saturday January 14 17:01:25 2017
+		Content Area: READING, Year: 2013, Grade Progression: 10, 11, 12 BASELINE (N=210)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:25 2017 in 0.11 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:25 2017
+		Content Area: READING, Year: 2013, Grade Progression: 9, 10, 11 BASELINE (N=257)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:25 2017 in 0.162 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:25 2017
+		Content Area: READING, Year: 2013, Grade Progression: 8, 9, 10 BASELINE (N=291)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:25 2017 in 0.181 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:25 2017
+		Content Area: READING, Year: 2013, Grade Progression: 7, 8, 9 BASELINE (N=299)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:25 2017 in 0.186 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:25 2017
+		Content Area: READING, Year: 2013, Grade Progression: 6, 7, 8 BASELINE (N=359)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:25 2017 in 0.172 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:25 2017
+		Content Area: READING, Year: 2013, Grade Progression: 5, 6, 7 BASELINE (N=367)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:26 2017 in 0.198 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:26 2017
+		Content Area: READING, Year: 2013, Grade Progression: 4, 5, 6 BASELINE (N=405)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:26 2017 in 0.19 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:26 2017
+		Content Area: READING, Year: 2013, Grade Progression: 3, 4, 5 BASELINE (N=451)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:26 2017 in 0.186 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:26 2017
+		Content Area: READING, Year: 2013, Grade Progression: 3, 4 BASELINE (N=625)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:26 2017 in 0.185 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:26 2017
+		Content Area: READING, Year: 2013, Grade Progression: 1, 2, 3 BASELINE (N=787)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:26 2017 in 0.198 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:26 2017
+		Content Area: READING, Year: 2013, Grade Progression: 0, 1, 2 BASELINE (N=887)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:27 2017 in 0.21 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:27 2017
+		Content Area: READING, Year: 2013, Grade Progression: 0, 1 BASELINE (N=763)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:27 2017 in 0.18 Seconds
+
+	NOTE: Due to small number of cases (223) no goodness of fit plots produced.
+	Started studentGrowthPercentiles: Saturday January 14 17:01:27 2017
+		Content Area: READING, Year: 2014, Grade Progression: 10, 11, 12 BASELINE (N=223)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:27 2017 in 0.117 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:27 2017
+		Content Area: READING, Year: 2014, Grade Progression: 9, 10, 11 BASELINE (N=273)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:27 2017 in 0.173 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:27 2017
+		Content Area: READING, Year: 2014, Grade Progression: 8, 9, 10 BASELINE (N=309)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:27 2017 in 0.191 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:27 2017
+		Content Area: READING, Year: 2014, Grade Progression: 7, 8, 9 BASELINE (N=330)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:28 2017 in 0.171 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:28 2017
+		Content Area: READING, Year: 2014, Grade Progression: 6, 7, 8 BASELINE (N=376)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:28 2017 in 0.17 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:28 2017
+		Content Area: READING, Year: 2014, Grade Progression: 5, 6, 7 BASELINE (N=422)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:28 2017 in 0.161 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:28 2017
+		Content Area: READING, Year: 2014, Grade Progression: 4, 5, 6 BASELINE (N=394)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:28 2017 in 0.173 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:28 2017
+		Content Area: READING, Year: 2014, Grade Progression: 3, 4, 5 BASELINE (N=473)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:28 2017 in 0.178 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:28 2017
+		Content Area: READING, Year: 2014, Grade Progression: 3, 4 BASELINE (N=651)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:29 2017 in 0.308 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:29 2017
+		Content Area: READING, Year: 2014, Grade Progression: 1, 2, 3 BASELINE (N=886)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:29 2017 in 0.176 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:29 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0, 1, 2 BASELINE (N=847)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:29 2017 in 0.176 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:29 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0, 1 BASELINE (N=1,125)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:29 2017 in 0.154 Seconds
+
+	NOTE: Due to small number of cases (199) no goodness of fit plots produced.
+	Started studentGrowthPercentiles: Saturday January 14 17:01:29 2017
+		Content Area: READING, Year: 2015, Grade Progression: 10, 11, 12 BASELINE (N=199)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:29 2017 in 0.095 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:29 2017
+		Content Area: READING, Year: 2015, Grade Progression: 9, 10, 11 BASELINE (N=286)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:29 2017 in 0.176 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:29 2017
+		Content Area: READING, Year: 2015, Grade Progression: 8, 9, 10 BASELINE (N=323)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:30 2017 in 0.174 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:30 2017
+		Content Area: READING, Year: 2015, Grade Progression: 7, 8, 9 BASELINE (N=360)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:30 2017 in 0.184 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:30 2017
+		Content Area: READING, Year: 2015, Grade Progression: 6, 7, 8 BASELINE (N=435)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:30 2017 in 0.178 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:30 2017
+		Content Area: READING, Year: 2015, Grade Progression: 5, 6, 7 BASELINE (N=428)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:30 2017 in 0.197 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:30 2017
+		Content Area: READING, Year: 2015, Grade Progression: 4, 5, 6 BASELINE (N=408)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:30 2017 in 0.169 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:30 2017
+		Content Area: READING, Year: 2015, Grade Progression: 3, 4, 5 BASELINE (N=463)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:31 2017 in 0.182 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:31 2017
+		Content Area: READING, Year: 2015, Grade Progression: 3, 4 BASELINE (N=662)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:31 2017 in 0.166 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:31 2017
+		Content Area: READING, Year: 2015, Grade Progression: 1, 2, 3 BASELINE (N=921)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:31 2017 in 0.201 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:31 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0, 1, 2 BASELINE (N=1,142)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:31 2017 in 0.216 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:31 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0, 1 BASELINE (N=1,064)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:31 2017 in 0.167 Seconds
+
+	NOTE: Due to small number of cases (219) no goodness of fit plots produced.
+	Started studentGrowthPercentiles: Saturday January 14 17:01:31 2017
+		Content Area: READING, Year: 2016, Grade Progression: 10, 11, 12 BASELINE (N=219)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:32 2017 in 0.104 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:32 2017
+		Content Area: READING, Year: 2016, Grade Progression: 9, 10, 11 BASELINE (N=256)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:32 2017 in 0.2 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:32 2017
+		Content Area: READING, Year: 2016, Grade Progression: 8, 9, 10 BASELINE (N=410)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:32 2017 in 0.201 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:32 2017
+		Content Area: READING, Year: 2016, Grade Progression: 7, 8, 9 BASELINE (N=454)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:32 2017 in 0.181 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:32 2017
+		Content Area: READING, Year: 2016, Grade Progression: 6, 7, 8 BASELINE (N=485)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:32 2017 in 0.185 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:32 2017
+		Content Area: READING, Year: 2016, Grade Progression: 5, 6, 7 BASELINE (N=450)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:33 2017 in 0.192 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:33 2017
+		Content Area: READING, Year: 2016, Grade Progression: 4, 5, 6 BASELINE (N=394)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:33 2017 in 0.184 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:33 2017
+		Content Area: READING, Year: 2016, Grade Progression: 3, 4, 5 BASELINE (N=499)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:33 2017 in 0.191 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:33 2017
+		Content Area: READING, Year: 2016, Grade Progression: 3, 4 BASELINE (N=644)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:33 2017 in 0.188 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:33 2017
+		Content Area: READING, Year: 2016, Grade Progression: 1, 2, 3 BASELINE (N=1,040)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:33 2017 in 0.235 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:33 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0, 1, 2 BASELINE (N=1,088)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:34 2017 in 0.241 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:01:34 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0, 1 BASELINE (N=988)
+	Finished studentGrowthPercentiles: Saturday January 14 17:01:34 2017 in 0.169 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:01:34 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0 BASELINE (N=1,165)
+	Finished studentGrowthProjections: Saturday January 14 17:01:37 2017 in 3.404 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:01:37 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0, 1 BASELINE (N=1,215)
+	Finished studentGrowthProjections: Saturday January 14 17:01:41 2017 in 3.659 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:01:41 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0, 1, 2 BASELINE (N=1,303)
+	Finished studentGrowthProjections: Saturday January 14 17:01:45 2017 in 3.876 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:01:45 2017
+		Content Area: READING, Year: 2016, Grade Progression: 1, 2, 3 BASELINE (N=1,208)
+	Finished studentGrowthProjections: Saturday January 14 17:01:48 2017 in 3.271 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:01:48 2017
+		Content Area: READING, Year: 2016, Grade Progression: 2, 3, 4 BASELINE (N=837)
+	Finished studentGrowthProjections: Saturday January 14 17:01:51 2017 in 2.529 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:01:51 2017
+		Content Area: READING, Year: 2016, Grade Progression: 3, 4, 5 BASELINE (N=664)
+	Finished studentGrowthProjections: Saturday January 14 17:01:53 2017 in 2.304 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:01:53 2017
+		Content Area: READING, Year: 2016, Grade Progression: 4, 5, 6 BASELINE (N=558)
+	Finished studentGrowthProjections: Saturday January 14 17:01:55 2017 in 1.65 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:01:55 2017
+		Content Area: READING, Year: 2016, Grade Progression: 5, 6, 7 BASELINE (N=589)
+	Finished studentGrowthProjections: Saturday January 14 17:01:56 2017 in 1.77 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:01:56 2017
+		Content Area: READING, Year: 2016, Grade Progression: 6, 7, 8 BASELINE (N=668)
+	Finished studentGrowthProjections: Saturday January 14 17:01:58 2017 in 1.231 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:01:58 2017
+		Content Area: READING, Year: 2016, Grade Progression: 7, 8, 9 BASELINE (N=905)
+	Finished studentGrowthProjections: Saturday January 14 17:01:59 2017 in 0.978 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:01:59 2017
+		Content Area: READING, Year: 2016, Grade Progression: 8, 9, 10 BASELINE (N=598)
+	Finished studentGrowthProjections: Saturday January 14 17:01:59 2017 in 0.72 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:01:59 2017
+		Content Area: READING, Year: 2016, Grade Progression: 9, 10, 11 BASELINE (N=390)
+	Finished studentGrowthProjections: Saturday January 14 17:02:00 2017 in 0.261 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:00 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0 BASELINE (N=1,160)
+	Finished studentGrowthProjections: Saturday January 14 17:02:02 2017 in 2.567 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:02 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0, 1 BASELINE (N=1,291)
+	Finished studentGrowthProjections: Saturday January 14 17:02:05 2017 in 3.225 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:05 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0, 1, 2 BASELINE (N=1,339)
+	Finished studentGrowthProjections: Saturday January 14 17:02:09 2017 in 3.537 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:09 2017
+		Content Area: READING, Year: 2015, Grade Progression: 1, 2, 3 BASELINE (N=1,096)
+	Finished studentGrowthProjections: Saturday January 14 17:02:12 2017 in 2.921 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:12 2017
+		Content Area: READING, Year: 2015, Grade Progression: 2, 3, 4 BASELINE (N=835)
+	Finished studentGrowthProjections: Saturday January 14 17:02:14 2017 in 2.418 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:14 2017
+		Content Area: READING, Year: 2015, Grade Progression: 3, 4, 5 BASELINE (N=608)
+	Finished studentGrowthProjections: Saturday January 14 17:02:17 2017 in 2.203 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:17 2017
+		Content Area: READING, Year: 2015, Grade Progression: 4, 5, 6 BASELINE (N=556)
+	Finished studentGrowthProjections: Saturday January 14 17:02:18 2017 in 1.679 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:18 2017
+		Content Area: READING, Year: 2015, Grade Progression: 5, 6, 7 BASELINE (N=597)
+	Finished studentGrowthProjections: Saturday January 14 17:02:20 2017 in 1.539 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:20 2017
+		Content Area: READING, Year: 2015, Grade Progression: 6, 7, 8 BASELINE (N=600)
+	Finished studentGrowthProjections: Saturday January 14 17:02:21 2017 in 1.216 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:21 2017
+		Content Area: READING, Year: 2015, Grade Progression: 7, 8, 9 BASELINE (N=722)
+	Finished studentGrowthProjections: Saturday January 14 17:02:22 2017 in 0.9 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:22 2017
+		Content Area: READING, Year: 2015, Grade Progression: 8, 9, 10 BASELINE (N=476)
+	Finished studentGrowthProjections: Saturday January 14 17:02:22 2017 in 0.54 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:23 2017
+		Content Area: READING, Year: 2015, Grade Progression: 9, 10, 11 BASELINE (N=386)
+	Finished studentGrowthProjections: Saturday January 14 17:02:23 2017 in 0.277 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:23 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0 BASELINE (N=1,223)
+	Finished studentGrowthProjections: Saturday January 14 17:02:26 2017 in 2.929 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:26 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0, 1 BASELINE (N=1,327)
+	Finished studentGrowthProjections: Saturday January 14 17:02:29 2017 in 3.327 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:29 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0, 1, 2 BASELINE (N=1,117)
+	Finished studentGrowthProjections: Saturday January 14 17:02:32 2017 in 2.795 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:32 2017
+		Content Area: READING, Year: 2014, Grade Progression: 1, 2, 3 BASELINE (N=1,095)
+	Finished studentGrowthProjections: Saturday January 14 17:02:35 2017 in 3.022 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:35 2017
+		Content Area: READING, Year: 2014, Grade Progression: 2, 3, 4 BASELINE (N=835)
+	Finished studentGrowthProjections: Saturday January 14 17:02:37 2017 in 2.423 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:37 2017
+		Content Area: READING, Year: 2014, Grade Progression: 3, 4, 5 BASELINE (N=647)
+	Finished studentGrowthProjections: Saturday January 14 17:02:39 2017 in 1.914 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:39 2017
+		Content Area: READING, Year: 2014, Grade Progression: 4, 5, 6 BASELINE (N=547)
+	Finished studentGrowthProjections: Saturday January 14 17:02:41 2017 in 1.71 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:41 2017
+		Content Area: READING, Year: 2014, Grade Progression: 5, 6, 7 BASELINE (N=559)
+	Finished studentGrowthProjections: Saturday January 14 17:02:42 2017 in 1.522 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:42 2017
+		Content Area: READING, Year: 2014, Grade Progression: 6, 7, 8 BASELINE (N=516)
+	Finished studentGrowthProjections: Saturday January 14 17:02:44 2017 in 1.098 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:44 2017
+		Content Area: READING, Year: 2014, Grade Progression: 7, 8, 9 BASELINE (N=595)
+	Finished studentGrowthProjections: Saturday January 14 17:02:45 2017 in 1.122 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:45 2017
+		Content Area: READING, Year: 2014, Grade Progression: 8, 9, 10 BASELINE (N=503)
+	Finished studentGrowthProjections: Saturday January 14 17:02:45 2017 in 0.504 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:45 2017
+		Content Area: READING, Year: 2014, Grade Progression: 9, 10, 11 BASELINE (N=377)
+	Finished studentGrowthProjections: Saturday January 14 17:02:45 2017 in 0.226 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:45 2017
+		Content Area: READING, Year: 2013, Grade Progression: 0 BASELINE (N=1,259)
+	Finished studentGrowthProjections: Saturday January 14 17:02:48 2017 in 2.637 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:48 2017
+		Content Area: READING, Year: 2013, Grade Progression: 0, 1 BASELINE (N=956)
+	Finished studentGrowthProjections: Saturday January 14 17:02:51 2017 in 2.627 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:51 2017
+		Content Area: READING, Year: 2013, Grade Progression: 1, 2 BASELINE (N=1,068)
+	Finished studentGrowthProjections: Saturday January 14 17:02:54 2017 in 2.843 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:54 2017
+		Content Area: READING, Year: 2013, Grade Progression: 2, 3 BASELINE (N=993)
+	Finished studentGrowthProjections: Saturday January 14 17:02:56 2017 in 2.523 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:56 2017
+		Content Area: READING, Year: 2013, Grade Progression: 3, 4 BASELINE (N=781)
+	Finished studentGrowthProjections: Saturday January 14 17:02:59 2017 in 2.389 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:02:59 2017
+		Content Area: READING, Year: 2013, Grade Progression: 4, 5 BASELINE (N=611)
+	Finished studentGrowthProjections: Saturday January 14 17:03:01 2017 in 2.222 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:03:01 2017
+		Content Area: READING, Year: 2013, Grade Progression: 5, 6 BASELINE (N=570)
+	Finished studentGrowthProjections: Saturday January 14 17:03:02 2017 in 1.416 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:03:02 2017
+		Content Area: READING, Year: 2013, Grade Progression: 6, 7 BASELINE (N=517)
+	Finished studentGrowthProjections: Saturday January 14 17:03:03 2017 in 1.012 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:03:03 2017
+		Content Area: READING, Year: 2013, Grade Progression: 7, 8 BASELINE (N=490)
+	Finished studentGrowthProjections: Saturday January 14 17:03:04 2017 in 0.778 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:03:04 2017
+		Content Area: READING, Year: 2013, Grade Progression: 8, 9 BASELINE (N=524)
+	Finished studentGrowthProjections: Saturday January 14 17:03:05 2017 in 0.671 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:03:05 2017
+		Content Area: READING, Year: 2013, Grade Progression: 9, 10 BASELINE (N=446)
+	Finished studentGrowthProjections: Saturday January 14 17:03:05 2017 in 0.593 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:03:05 2017
+		Content Area: READING, Year: 2013, Grade Progression: 10, 11 BASELINE (N=375)
+	Finished studentGrowthProjections: Saturday January 14 17:03:05 2017 in 0.22 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:03:06 2017
+		Content Area: READING, Year: 2012, Grade Progression: 0 BASELINE (N=995)
+	Finished studentGrowthProjections: Saturday January 14 17:03:08 2017 in 2.277 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:03:08 2017
+		Content Area: READING, Year: 2012, Grade Progression: 1 BASELINE (N=1,091)
+	Finished studentGrowthProjections: Saturday January 14 17:03:11 2017 in 3.365 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:03:11 2017
+		Content Area: READING, Year: 2012, Grade Progression: 2 BASELINE (N=1,011)
+	Finished studentGrowthProjections: Saturday January 14 17:03:14 2017 in 3.158 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:03:14 2017
+		Content Area: READING, Year: 2012, Grade Progression: 3 BASELINE (N=1,046)
+	Finished studentGrowthProjections: Saturday January 14 17:03:17 2017 in 2.911 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:03:17 2017
+		Content Area: READING, Year: 2012, Grade Progression: 4 BASELINE (N=670)
+	Finished studentGrowthProjections: Saturday January 14 17:03:20 2017 in 2.271 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:03:20 2017
+		Content Area: READING, Year: 2012, Grade Progression: 5 BASELINE (N=646)
+	Finished studentGrowthProjections: Saturday January 14 17:03:22 2017 in 2.056 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:03:22 2017
+		Content Area: READING, Year: 2012, Grade Progression: 6 BASELINE (N=505)
+	Finished studentGrowthProjections: Saturday January 14 17:03:23 2017 in 1.54 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:03:23 2017
+		Content Area: READING, Year: 2012, Grade Progression: 7 BASELINE (N=488)
+	Finished studentGrowthProjections: Saturday January 14 17:03:24 2017 in 1.294 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:03:24 2017
+		Content Area: READING, Year: 2012, Grade Progression: 8 BASELINE (N=482)
+	Finished studentGrowthProjections: Saturday January 14 17:03:25 2017 in 0.834 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:03:25 2017
+		Content Area: READING, Year: 2012, Grade Progression: 9 BASELINE (N=515)
+	Finished studentGrowthProjections: Saturday January 14 17:03:26 2017 in 0.847 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:03:26 2017
+		Content Area: READING, Year: 2012, Grade Progression: 10 BASELINE (N=443)
+	Finished studentGrowthProjections: Saturday January 14 17:03:27 2017 in 0.395 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:03:27 2017
+		Content Area: READING, Year: 2012, Grade Progression: 11 BASELINE (N=359)
+	Finished studentGrowthProjections: Saturday January 14 17:03:27 2017 in 0.209 Seconds
+
+
+Started abcSGP Saturday January 14 17:25:05 2017
+
+
+	abcSGP(
+		 sgp_object = WIDA_RI_Data_LONG
+		steps = c("prepareSGP", "analyzeSGP", "combineSGP", "visualizeSGP", "outputSGP")
+		sgp.percentiles = FALSE
+		sgp.projections = FALSE
+		sgp.projections.lagged = FALSE
+		sgp.percentiles.baseline = TRUE
+		sgp.projections.baseline = TRUE
+		sgp.projections.lagged.baseline = TRUE
+		sgp.target.scale.scores = TRUE
+		parallel.config = list(BACKEND = "PARALLEL", WORKERS = list(PERCENTILES = 4, BASELINE_PERCENTILES = 4, PROJECTIONS = 4, LAGGED_PROJECTIONS = 4, SGP_SCALE_SCORE_TARGETS = 4, GA_PLOTS = 1, SG_PLOTS = 1))
+		sgPlot.demo.report = TRUE
+		plot.types = c("growthAchievementPlot", "studentGrowthPlot")
+		get.cohort.data.info = TRUE )
+
+
+Started prepareSGP Saturday January 14 17:25:05 2017
+
+
+	prepareSGP(
+		 data = sgp_object
+		data_supplementary = data_supplementary
+		state = state
+		var.names = prepareSGP.var.names
+		create.additional.variables = prepareSGP.create.additional.variables )
+
+Finished prepareSGP Saturday January 14 17:25:05 2017 in 0.052 Seconds 
+
+	CSEMs are required in SGPstateData to simulate SGPs for confidence interval calculations. Confidence intervals will not be calculated.
+
+Started analyzeSGP Saturday January 14 17:25:05 2017
+
+
+	analyzeSGP(
+		 sgp_object = sgp_object
+		state = state
+		years = years
+		content_areas = content_areas
+		grades = grades
+		sgp.percentiles = sgp.percentiles
+		sgp.projections = sgp.projections
+		sgp.projections.lagged = sgp.projections.lagged
+		sgp.percentiles.baseline = sgp.percentiles.baseline
+		sgp.projections.baseline = sgp.projections.baseline
+		sgp.projections.lagged.baseline = sgp.projections.lagged.baseline
+		sgp.minimum.default.panel.years = sgp.minimum.default.panel.years
+		sgp.use.my.coefficient.matrices = sgp.use.my.coefficient.matrices
+		sgp.test.cohort.size = sgp.test.cohort.size
+		return.sgp.test.results = return.sgp.test.results
+		simulate.sgps = simulate.sgps
+		calculate.simex = calculate.simex
+		calculate.simex.baseline = calculate.simex.baseline
+		goodness.of.fit.print = goodness.of.fit.print
+		sgp.config = sgp.config
+		parallel.config = parallel.config
+		verbose.output = verbose.output
+		get.cohort.data.info = get.cohort.data.info
+		sgp.sqlite = sgp.sqlite
+		sgp.percentiles.equated = sgp.percentiles.equated
+		sgp.percentiles.equating.method = sgp.percentiles.equating.method
+		sgp.percentiles.calculate.sgps = sgp.percentiles.calculate.sgps
+		SGPt = SGPt )
+
+	NOTE: Cohort data information saved to 'Logs/cohort_data_info.Rdata'.
+	NOTE: Due to small number of cases (182) no goodness of fit plots produced.
+	NOTE: Due to small number of cases (244) no goodness of fit plots produced.
+	Started studentGrowthPercentiles: Saturday January 14 17:25:08 2017
+	Started studentGrowthPercentiles: Saturday January 14 17:25:08 2017
+		Content Area: READING, Year: 2012, Grade Progression: 11, 12 BASELINE (N=182)
+		Content Area: READING, Year: 2012, Grade Progression: 10, 11 BASELINE (N=244)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:08 2017 in 0.149 Seconds
+
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:08 2017 in 0.149 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:08 2017
+		Content Area: READING, Year: 2012, Grade Progression: 9, 10 BASELINE (N=286)
+	Started studentGrowthPercentiles: Saturday January 14 17:25:08 2017
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:08 2017 in 0.339 Seconds
+
+		Content Area: READING, Year: 2012, Grade Progression: 8, 9 BASELINE (N=267)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:08 2017 in 0.343 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:08 2017
+	Started studentGrowthPercentiles: Saturday January 14 17:25:08 2017
+		Content Area: READING, Year: 2012, Grade Progression: 6, 7 BASELINE (N=346)
+		Content Area: READING, Year: 2012, Grade Progression: 7, 8 BASELINE (N=335)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:09 2017 in 0.365 Seconds
+
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:09 2017 in 0.372 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:08 2017
+		Content Area: READING, Year: 2012, Grade Progression: 5, 6 BASELINE (N=368)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:09 2017 in 0.366 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:08 2017
+		Content Area: READING, Year: 2012, Grade Progression: 4, 5 BASELINE (N=491)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:09 2017 in 0.371 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:09 2017
+	Started studentGrowthPercentiles: Saturday January 14 17:25:09 2017
+		Content Area: READING, Year: 2012, Grade Progression: 3, 4 BASELINE (N=514)
+		Content Area: READING, Year: 2012, Grade Progression: 2, 3 BASELINE (N=881)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:09 2017 in 0.319 Seconds
+
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:09 2017 in 0.312 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:09 2017
+		Content Area: READING, Year: 2012, Grade Progression: 1, 2 BASELINE (N=845)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:09 2017 in 0.31 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:09 2017
+		Content Area: READING, Year: 2012, Grade Progression: 0, 1 BASELINE (N=886)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:09 2017 in 0.309 Seconds
+
+	NOTE: Due to small number of cases (210) no goodness of fit plots produced.
+	Started studentGrowthPercentiles: Saturday January 14 17:25:09 2017
+		Content Area: READING, Year: 2013, Grade Progression: 10, 11, 12 BASELINE (N=210)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:09 2017 in 0.2 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:09 2017
+		Content Area: READING, Year: 2013, Grade Progression: 9, 10, 11 BASELINE (N=257)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:10 2017 in 0.412 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:09 2017
+		Content Area: READING, Year: 2013, Grade Progression: 8, 9, 10 BASELINE (N=291)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:10 2017 in 0.406 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:09 2017
+		Content Area: READING, Year: 2013, Grade Progression: 7, 8, 9 BASELINE (N=299)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:10 2017 in 0.415 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:09 2017
+		Content Area: READING, Year: 2013, Grade Progression: 6, 7, 8 BASELINE (N=359)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:10 2017 in 0.401 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:10 2017
+		Content Area: READING, Year: 2013, Grade Progression: 5, 6, 7 BASELINE (N=367)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:10 2017 in 0.433 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:10 2017
+	Started studentGrowthPercentiles: Saturday January 14 17:25:10 2017
+		Content Area: READING, Year: 2013, Grade Progression: 3, 4, 5 BASELINE (N=451)
+		Content Area: READING, Year: 2013, Grade Progression: 4, 5, 6 BASELINE (N=405)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:10 2017 in 0.417 Seconds
+
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:10 2017 in 0.438 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:10 2017
+		Content Area: READING, Year: 2013, Grade Progression: 3, 4 BASELINE (N=625)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:10 2017 in 0.364 Seconds
+
+	NOTE: Due to small number of cases (223) no goodness of fit plots produced.
+	Started studentGrowthPercentiles: Saturday January 14 17:25:10 2017
+		Content Area: READING, Year: 2014, Grade Progression: 10, 11, 12 BASELINE (N=223)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:11 2017 in 0.181 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:10 2017
+		Content Area: READING, Year: 2013, Grade Progression: 1, 2, 3 BASELINE (N=787)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:11 2017 in 0.473 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:10 2017
+		Content Area: READING, Year: 2013, Grade Progression: 0, 1 BASELINE (N=763)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:11 2017 in 0.402 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:10 2017
+		Content Area: READING, Year: 2013, Grade Progression: 0, 1, 2 BASELINE (N=887)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:11 2017 in 0.492 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:11 2017
+		Content Area: READING, Year: 2014, Grade Progression: 9, 10, 11 BASELINE (N=273)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:11 2017 in 0.414 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:11 2017
+		Content Area: READING, Year: 2014, Grade Progression: 8, 9, 10 BASELINE (N=309)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:11 2017 in 0.411 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:11 2017
+		Content Area: READING, Year: 2014, Grade Progression: 7, 8, 9 BASELINE (N=330)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:11 2017 in 0.426 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:11 2017
+		Content Area: READING, Year: 2014, Grade Progression: 6, 7, 8 BASELINE (N=376)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:11 2017 in 0.439 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:11 2017
+		Content Area: READING, Year: 2014, Grade Progression: 5, 6, 7 BASELINE (N=422)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:12 2017 in 0.445 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:11 2017
+		Content Area: READING, Year: 2014, Grade Progression: 4, 5, 6 BASELINE (N=394)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:12 2017 in 0.452 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:11 2017
+		Content Area: READING, Year: 2014, Grade Progression: 3, 4, 5 BASELINE (N=473)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:12 2017 in 0.444 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:11 2017
+		Content Area: READING, Year: 2014, Grade Progression: 3, 4 BASELINE (N=651)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:12 2017 in 0.451 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:12 2017
+		Content Area: READING, Year: 2014, Grade Progression: 1, 2, 3 BASELINE (N=886)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:12 2017 in 0.447 Seconds
+
+	NOTE: Due to small number of cases (199) no goodness of fit plots produced.
+	Started studentGrowthPercentiles: Saturday January 14 17:25:12 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0, 1, 2 BASELINE (N=847)
+	Started studentGrowthPercentiles: Saturday January 14 17:25:12 2017
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:12 2017 in 0.469 Seconds
+
+		Content Area: READING, Year: 2015, Grade Progression: 10, 11, 12 BASELINE (N=199)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:12 2017 in 0.233 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:12 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0, 1 BASELINE (N=1,125)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:12 2017 in 0.445 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:12 2017
+		Content Area: READING, Year: 2015, Grade Progression: 9, 10, 11 BASELINE (N=286)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:13 2017 in 0.408 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:12 2017
+		Content Area: READING, Year: 2015, Grade Progression: 8, 9, 10 BASELINE (N=323)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:13 2017 in 0.409 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:12 2017
+		Content Area: READING, Year: 2015, Grade Progression: 7, 8, 9 BASELINE (N=360)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:13 2017 in 0.42 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:12 2017
+		Content Area: READING, Year: 2015, Grade Progression: 6, 7, 8 BASELINE (N=435)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:13 2017 in 0.44 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:13 2017
+		Content Area: READING, Year: 2015, Grade Progression: 5, 6, 7 BASELINE (N=428)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:13 2017 in 0.451 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:13 2017
+		Content Area: READING, Year: 2015, Grade Progression: 4, 5, 6 BASELINE (N=408)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:13 2017 in 0.461 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:13 2017
+		Content Area: READING, Year: 2015, Grade Progression: 3, 4, 5 BASELINE (N=463)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:13 2017 in 0.472 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:13 2017
+		Content Area: READING, Year: 2015, Grade Progression: 3, 4 BASELINE (N=662)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:13 2017 in 0.456 Seconds
+
+	NOTE: Due to small number of cases (219) no goodness of fit plots produced.
+	Started studentGrowthPercentiles: Saturday January 14 17:25:13 2017
+		Content Area: READING, Year: 2016, Grade Progression: 10, 11, 12 BASELINE (N=219)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:14 2017 in 0.2 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:13 2017
+		Content Area: READING, Year: 2015, Grade Progression: 1, 2, 3 BASELINE (N=921)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:14 2017 in 0.477 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:13 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0, 1 BASELINE (N=1,064)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:14 2017 in 0.46 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:13 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0, 1, 2 BASELINE (N=1,142)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:14 2017 in 0.527 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:14 2017
+		Content Area: READING, Year: 2016, Grade Progression: 9, 10, 11 BASELINE (N=256)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:14 2017 in 0.471 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:14 2017
+		Content Area: READING, Year: 2016, Grade Progression: 8, 9, 10 BASELINE (N=410)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:14 2017 in 0.523 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:14 2017
+		Content Area: READING, Year: 2016, Grade Progression: 6, 7, 8 BASELINE (N=485)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:14 2017 in 0.358 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:14 2017
+		Content Area: READING, Year: 2016, Grade Progression: 7, 8, 9 BASELINE (N=454)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:14 2017 in 0.54 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:14 2017
+		Content Area: READING, Year: 2016, Grade Progression: 5, 6, 7 BASELINE (N=450)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:15 2017 in 0.377 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:14 2017
+		Content Area: READING, Year: 2016, Grade Progression: 4, 5, 6 BASELINE (N=394)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:15 2017 in 0.415 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:15 2017
+		Content Area: READING, Year: 2016, Grade Progression: 3, 4 BASELINE (N=644)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:15 2017 in 0.317 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:14 2017
+		Content Area: READING, Year: 2016, Grade Progression: 3, 4, 5 BASELINE (N=499)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:15 2017 in 0.37 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:15 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0, 1 BASELINE (N=988)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:15 2017 in 0.29 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:15 2017
+		Content Area: READING, Year: 2016, Grade Progression: 1, 2, 3 BASELINE (N=1,040)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:15 2017 in 0.716 Seconds
+
+	Started studentGrowthPercentiles: Saturday January 14 17:25:15 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0, 1, 2 BASELINE (N=1,088)
+	Finished studentGrowthPercentiles: Saturday January 14 17:25:16 2017 in 0.702 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:16 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0 BASELINE (N=1,165)
+	Finished studentGrowthProjections: Saturday January 14 17:25:21 2017 in 4.936 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:16 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0, 1 BASELINE (N=1,215)
+	Finished studentGrowthProjections: Saturday January 14 17:25:22 2017 in 5.525 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:16 2017
+		Content Area: READING, Year: 2016, Grade Progression: 1, 2, 3 BASELINE (N=1,208)
+	Finished studentGrowthProjections: Saturday January 14 17:25:22 2017 in 6.142 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:16 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0, 1, 2 BASELINE (N=1,303)
+	Finished studentGrowthProjections: Saturday January 14 17:25:22 2017 in 6.218 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:22 2017
+		Content Area: READING, Year: 2016, Grade Progression: 5, 6, 7 BASELINE (N=589)
+	Finished studentGrowthProjections: Saturday January 14 17:25:25 2017 in 3.047 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:21 2017
+		Content Area: READING, Year: 2016, Grade Progression: 2, 3, 4 BASELINE (N=837)
+	Finished studentGrowthProjections: Saturday January 14 17:25:26 2017 in 4.833 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:22 2017
+		Content Area: READING, Year: 2016, Grade Progression: 4, 5, 6 BASELINE (N=558)
+	Finished studentGrowthProjections: Saturday January 14 17:25:26 2017 in 3.683 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:22 2017
+		Content Area: READING, Year: 2016, Grade Progression: 3, 4, 5 BASELINE (N=664)
+	Finished studentGrowthProjections: Saturday January 14 17:25:26 2017 in 4.4 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:26 2017
+		Content Area: READING, Year: 2016, Grade Progression: 9, 10, 11 BASELINE (N=390)
+	Finished studentGrowthProjections: Saturday January 14 17:25:27 2017 in 0.589 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:26 2017
+		Content Area: READING, Year: 2016, Grade Progression: 8, 9, 10 BASELINE (N=598)
+	Finished studentGrowthProjections: Saturday January 14 17:25:28 2017 in 1.754 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:26 2017
+		Content Area: READING, Year: 2016, Grade Progression: 6, 7, 8 BASELINE (N=668)
+	Finished studentGrowthProjections: Saturday January 14 17:25:28 2017 in 2.899 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:26 2017
+		Content Area: READING, Year: 2016, Grade Progression: 7, 8, 9 BASELINE (N=905)
+	Finished studentGrowthProjections: Saturday January 14 17:25:29 2017 in 2.733 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:27 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0 BASELINE (N=1,160)
+	Finished studentGrowthProjections: Saturday January 14 17:25:32 2017 in 5.095 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:28 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0, 1 BASELINE (N=1,291)
+	Finished studentGrowthProjections: Saturday January 14 17:25:34 2017 in 6.508 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:28 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0, 1, 2 BASELINE (N=1,339)
+	Finished studentGrowthProjections: Saturday January 14 17:25:35 2017 in 6.327 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:29 2017
+		Content Area: READING, Year: 2015, Grade Progression: 1, 2, 3 BASELINE (N=1,096)
+	Finished studentGrowthProjections: Saturday January 14 17:25:35 2017 in 6.24 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:32 2017
+		Content Area: READING, Year: 2015, Grade Progression: 2, 3, 4 BASELINE (N=835)
+	Finished studentGrowthProjections: Saturday January 14 17:25:38 2017 in 5.655 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:35 2017
+		Content Area: READING, Year: 2015, Grade Progression: 5, 6, 7 BASELINE (N=597)
+	Finished studentGrowthProjections: Saturday January 14 17:25:39 2017 in 3.825 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:35 2017
+		Content Area: READING, Year: 2015, Grade Progression: 4, 5, 6 BASELINE (N=556)
+	Finished studentGrowthProjections: Saturday January 14 17:25:39 2017 in 4.288 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:34 2017
+		Content Area: READING, Year: 2015, Grade Progression: 3, 4, 5 BASELINE (N=608)
+	Finished studentGrowthProjections: Saturday January 14 17:25:40 2017 in 5.257 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:40 2017
+		Content Area: READING, Year: 2015, Grade Progression: 9, 10, 11 BASELINE (N=386)
+	Finished studentGrowthProjections: Saturday January 14 17:25:41 2017 in 1.102 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:38 2017
+		Content Area: READING, Year: 2015, Grade Progression: 6, 7, 8 BASELINE (N=600)
+	Finished studentGrowthProjections: Saturday January 14 17:25:41 2017 in 3.304 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:39 2017
+		Content Area: READING, Year: 2015, Grade Progression: 8, 9, 10 BASELINE (N=476)
+	Finished studentGrowthProjections: Saturday January 14 17:25:41 2017 in 1.868 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:39 2017
+		Content Area: READING, Year: 2015, Grade Progression: 7, 8, 9 BASELINE (N=722)
+	Finished studentGrowthProjections: Saturday January 14 17:25:42 2017 in 2.734 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:41 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0 BASELINE (N=1,223)
+	Finished studentGrowthProjections: Saturday January 14 17:25:47 2017 in 5.834 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:41 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0, 1, 2 BASELINE (N=1,117)
+	Finished studentGrowthProjections: Saturday January 14 17:25:47 2017 in 6.183 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:41 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0, 1 BASELINE (N=1,327)
+	Finished studentGrowthProjections: Saturday January 14 17:25:48 2017 in 6.695 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:42 2017
+		Content Area: READING, Year: 2014, Grade Progression: 1, 2, 3 BASELINE (N=1,095)
+	Finished studentGrowthProjections: Saturday January 14 17:25:48 2017 in 6.258 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:48 2017
+		Content Area: READING, Year: 2014, Grade Progression: 5, 6, 7 BASELINE (N=559)
+	Finished studentGrowthProjections: Saturday January 14 17:25:52 2017 in 3.644 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:48 2017
+		Content Area: READING, Year: 2014, Grade Progression: 4, 5, 6 BASELINE (N=547)
+	Finished studentGrowthProjections: Saturday January 14 17:25:52 2017 in 4.151 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:47 2017
+		Content Area: READING, Year: 2014, Grade Progression: 3, 4, 5 BASELINE (N=647)
+	Finished studentGrowthProjections: Saturday January 14 17:25:52 2017 in 4.878 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:47 2017
+		Content Area: READING, Year: 2014, Grade Progression: 2, 3, 4 BASELINE (N=835)
+	Finished studentGrowthProjections: Saturday January 14 17:25:53 2017 in 5.848 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:53 2017
+		Content Area: READING, Year: 2014, Grade Progression: 9, 10, 11 BASELINE (N=377)
+	Finished studentGrowthProjections: Saturday January 14 17:25:54 2017 in 0.983 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:52 2017
+		Content Area: READING, Year: 2014, Grade Progression: 8, 9, 10 BASELINE (N=503)
+	Finished studentGrowthProjections: Saturday January 14 17:25:54 2017 in 1.622 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:52 2017
+		Content Area: READING, Year: 2014, Grade Progression: 7, 8, 9 BASELINE (N=595)
+	Finished studentGrowthProjections: Saturday January 14 17:25:54 2017 in 2.36 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:52 2017
+		Content Area: READING, Year: 2014, Grade Progression: 6, 7, 8 BASELINE (N=516)
+	Finished studentGrowthProjections: Saturday January 14 17:25:55 2017 in 2.833 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:54 2017
+		Content Area: READING, Year: 2013, Grade Progression: 0, 1 BASELINE (N=956)
+	Finished studentGrowthProjections: Saturday January 14 17:25:59 2017 in 4.771 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:54 2017
+		Content Area: READING, Year: 2013, Grade Progression: 0 BASELINE (N=1,259)
+	Finished studentGrowthProjections: Saturday January 14 17:25:59 2017 in 5.644 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:55 2017
+		Content Area: READING, Year: 2013, Grade Progression: 2, 3 BASELINE (N=993)
+	Finished studentGrowthProjections: Saturday January 14 17:26:00 2017 in 5.206 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:54 2017
+		Content Area: READING, Year: 2013, Grade Progression: 1, 2 BASELINE (N=1,068)
+	Finished studentGrowthProjections: Saturday January 14 17:26:00 2017 in 5.608 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:01 2017
+		Content Area: READING, Year: 2013, Grade Progression: 6, 7 BASELINE (N=517)
+	Finished studentGrowthProjections: Saturday January 14 17:26:03 2017 in 2.282 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:00 2017
+		Content Area: READING, Year: 2013, Grade Progression: 5, 6 BASELINE (N=570)
+	Finished studentGrowthProjections: Saturday January 14 17:26:04 2017 in 3.69 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:59 2017
+		Content Area: READING, Year: 2013, Grade Progression: 4, 5 BASELINE (N=611)
+	Finished studentGrowthProjections: Saturday January 14 17:26:04 2017 in 4.237 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:25:59 2017
+		Content Area: READING, Year: 2013, Grade Progression: 3, 4 BASELINE (N=781)
+	Finished studentGrowthProjections: Saturday January 14 17:26:04 2017 in 4.93 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:04 2017
+		Content Area: READING, Year: 2013, Grade Progression: 10, 11 BASELINE (N=375)
+	Finished studentGrowthProjections: Saturday January 14 17:26:05 2017 in 0.929 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:04 2017
+		Content Area: READING, Year: 2013, Grade Progression: 9, 10 BASELINE (N=446)
+	Finished studentGrowthProjections: Saturday January 14 17:26:05 2017 in 1.337 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:04 2017
+		Content Area: READING, Year: 2013, Grade Progression: 8, 9 BASELINE (N=524)
+	Finished studentGrowthProjections: Saturday January 14 17:26:06 2017 in 1.969 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:03 2017
+		Content Area: READING, Year: 2013, Grade Progression: 7, 8 BASELINE (N=490)
+	Finished studentGrowthProjections: Saturday January 14 17:26:06 2017 in 2.367 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:05 2017
+		Content Area: READING, Year: 2012, Grade Progression: 0 BASELINE (N=995)
+	Finished studentGrowthProjections: Saturday January 14 17:26:09 2017 in 4.537 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:05 2017
+		Content Area: READING, Year: 2012, Grade Progression: 1 BASELINE (N=1,091)
+	Finished studentGrowthProjections: Saturday January 14 17:26:10 2017 in 4.894 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:06 2017
+		Content Area: READING, Year: 2012, Grade Progression: 2 BASELINE (N=1,011)
+	Finished studentGrowthProjections: Saturday January 14 17:26:10 2017 in 4.657 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:06 2017
+		Content Area: READING, Year: 2012, Grade Progression: 3 BASELINE (N=1,046)
+	Finished studentGrowthProjections: Saturday January 14 17:26:11 2017 in 4.663 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:11 2017
+		Content Area: READING, Year: 2012, Grade Progression: 7 BASELINE (N=488)
+	Finished studentGrowthProjections: Saturday January 14 17:26:13 2017 in 2.567 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:09 2017
+		Content Area: READING, Year: 2012, Grade Progression: 4 BASELINE (N=670)
+	Finished studentGrowthProjections: Saturday January 14 17:26:13 2017 in 3.843 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:10 2017
+		Content Area: READING, Year: 2012, Grade Progression: 6 BASELINE (N=505)
+	Finished studentGrowthProjections: Saturday January 14 17:26:13 2017 in 2.993 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:10 2017
+		Content Area: READING, Year: 2012, Grade Progression: 5 BASELINE (N=646)
+	Finished studentGrowthProjections: Saturday January 14 17:26:14 2017 in 3.472 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:14 2017
+		Content Area: READING, Year: 2012, Grade Progression: 11 BASELINE (N=359)
+	Finished studentGrowthProjections: Saturday January 14 17:26:14 2017 in 0.819 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:13 2017
+		Content Area: READING, Year: 2012, Grade Progression: 10 BASELINE (N=443)
+	Finished studentGrowthProjections: Saturday January 14 17:26:15 2017 in 1.252 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:13 2017
+		Content Area: READING, Year: 2012, Grade Progression: 9 BASELINE (N=515)
+	Finished studentGrowthProjections: Saturday January 14 17:26:15 2017 in 1.715 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:13 2017
+		Content Area: READING, Year: 2012, Grade Progression: 8 BASELINE (N=482)
+	Finished studentGrowthProjections: Saturday January 14 17:26:15 2017 in 1.966 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:16 2017
+		Content Area: READING, Year: 2016, Grade Progression: 1, 2, 3 LAGGED.BASELINE (N=644)
+	Finished studentGrowthProjections: Saturday January 14 17:26:21 2017 in 5.007 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:16 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0 LAGGED.BASELINE (N=988)
+	Finished studentGrowthProjections: Saturday January 14 17:26:22 2017 in 6.762 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:16 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0, 1, 2 LAGGED.BASELINE (N=1,040)
+	Finished studentGrowthProjections: Saturday January 14 17:26:23 2017 in 7.551 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:16 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0, 1 LAGGED.BASELINE (N=1,088)
+	Finished studentGrowthProjections: Saturday January 14 17:26:24 2017 in 7.886 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:21 2017
+		Content Area: READING, Year: 2016, Grade Progression: 2, 3, 4 LAGGED.BASELINE (N=499)
+	Finished studentGrowthProjections: Saturday January 14 17:26:25 2017 in 4.666 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:23 2017
+		Content Area: READING, Year: 2016, Grade Progression: 3, 4, 5 LAGGED.BASELINE (N=394)
+	Finished studentGrowthProjections: Saturday January 14 17:26:26 2017 in 3.811 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:24 2017
+		Content Area: READING, Year: 2016, Grade Progression: 5, 6, 7 LAGGED.BASELINE (N=485)
+	Finished studentGrowthProjections: Saturday January 14 17:26:27 2017 in 3.084 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:23 2017
+		Content Area: READING, Year: 2016, Grade Progression: 4, 5, 6 LAGGED.BASELINE (N=450)
+	Finished studentGrowthProjections: Saturday January 14 17:26:27 2017 in 3.519 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:27 2017
+		Content Area: READING, Year: 2016, Grade Progression: 9, 10, 11 LAGGED.BASELINE (N=219)
+	Finished studentGrowthProjections: Saturday January 14 17:26:28 2017 in 0.983 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:26 2017
+		Content Area: READING, Year: 2016, Grade Progression: 6, 7, 8 LAGGED.BASELINE (N=454)
+	Finished studentGrowthProjections: Saturday January 14 17:26:28 2017 in 2.596 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:27 2017
+		Content Area: READING, Year: 2016, Grade Progression: 8, 9, 10 LAGGED.BASELINE (N=256)
+	Finished studentGrowthProjections: Saturday January 14 17:26:28 2017 in 1.372 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:26 2017
+		Content Area: READING, Year: 2016, Grade Progression: 7, 8, 9 LAGGED.BASELINE (N=410)
+	Finished studentGrowthProjections: Saturday January 14 17:26:28 2017 in 1.985 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:28 2017
+		Content Area: READING, Year: 2015, Grade Progression: 1, 2, 3 LAGGED.BASELINE (N=662)
+	Finished studentGrowthProjections: Saturday January 14 17:26:34 2017 in 5.343 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:28 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0 LAGGED.BASELINE (N=1,064)
+	Finished studentGrowthProjections: Saturday January 14 17:26:35 2017 in 7.562 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:28 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0, 1, 2 LAGGED.BASELINE (N=921)
+	Finished studentGrowthProjections: Saturday January 14 17:26:36 2017 in 7.464 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:28 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0, 1 LAGGED.BASELINE (N=1,142)
+	Finished studentGrowthProjections: Saturday January 14 17:26:37 2017 in 8.46 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:34 2017
+		Content Area: READING, Year: 2015, Grade Progression: 2, 3, 4 LAGGED.BASELINE (N=463)
+	Finished studentGrowthProjections: Saturday January 14 17:26:38 2017 in 4.628 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:36 2017
+		Content Area: READING, Year: 2015, Grade Progression: 4, 5, 6 LAGGED.BASELINE (N=428)
+	Finished studentGrowthProjections: Saturday January 14 17:26:39 2017 in 3.388 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:36 2017
+		Content Area: READING, Year: 2015, Grade Progression: 3, 4, 5 LAGGED.BASELINE (N=408)
+	Finished studentGrowthProjections: Saturday January 14 17:26:39 2017 in 3.943 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:37 2017
+		Content Area: READING, Year: 2015, Grade Progression: 5, 6, 7 LAGGED.BASELINE (N=435)
+	Finished studentGrowthProjections: Saturday January 14 17:26:40 2017 in 2.908 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:40 2017
+		Content Area: READING, Year: 2015, Grade Progression: 9, 10, 11 LAGGED.BASELINE (N=199)
+	Finished studentGrowthProjections: Saturday January 14 17:26:41 2017 in 0.969 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:38 2017
+		Content Area: READING, Year: 2015, Grade Progression: 6, 7, 8 LAGGED.BASELINE (N=360)
+	Finished studentGrowthProjections: Saturday January 14 17:26:41 2017 in 2.302 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:40 2017
+		Content Area: READING, Year: 2015, Grade Progression: 8, 9, 10 LAGGED.BASELINE (N=286)
+	Finished studentGrowthProjections: Saturday January 14 17:26:41 2017 in 1.44 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:39 2017
+		Content Area: READING, Year: 2015, Grade Progression: 7, 8, 9 LAGGED.BASELINE (N=323)
+	Finished studentGrowthProjections: Saturday January 14 17:26:41 2017 in 1.924 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:41 2017
+		Content Area: READING, Year: 2014, Grade Progression: 1, 2, 3 LAGGED.BASELINE (N=651)
+	Finished studentGrowthProjections: Saturday January 14 17:26:47 2017 in 6.023 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:41 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0, 1 LAGGED.BASELINE (N=847)
+	Finished studentGrowthProjections: Saturday January 14 17:26:49 2017 in 7.666 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:41 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0, 1, 2 LAGGED.BASELINE (N=886)
+	Finished studentGrowthProjections: Saturday January 14 17:26:49 2017 in 7.951 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:41 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0 LAGGED.BASELINE (N=1,125)
+	Finished studentGrowthProjections: Saturday January 14 17:26:49 2017 in 8.796 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:47 2017
+		Content Area: READING, Year: 2014, Grade Progression: 2, 3, 4 LAGGED.BASELINE (N=473)
+	Finished studentGrowthProjections: Saturday January 14 17:26:52 2017 in 5.046 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:49 2017
+		Content Area: READING, Year: 2014, Grade Progression: 4, 5, 6 LAGGED.BASELINE (N=422)
+	Finished studentGrowthProjections: Saturday January 14 17:26:53 2017 in 3.643 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:50 2017
+		Content Area: READING, Year: 2014, Grade Progression: 5, 6, 7 LAGGED.BASELINE (N=376)
+	Finished studentGrowthProjections: Saturday January 14 17:26:53 2017 in 3.148 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:49 2017
+		Content Area: READING, Year: 2014, Grade Progression: 3, 4, 5 LAGGED.BASELINE (N=394)
+	Finished studentGrowthProjections: Saturday January 14 17:26:53 2017 in 4.275 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:53 2017
+		Content Area: READING, Year: 2014, Grade Progression: 9, 10, 11 LAGGED.BASELINE (N=223)
+	Finished studentGrowthProjections: Saturday January 14 17:26:54 2017 in 1.084 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:53 2017
+		Content Area: READING, Year: 2014, Grade Progression: 8, 9, 10 LAGGED.BASELINE (N=273)
+	Finished studentGrowthProjections: Saturday January 14 17:26:54 2017 in 1.628 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:53 2017
+		Content Area: READING, Year: 2014, Grade Progression: 7, 8, 9 LAGGED.BASELINE (N=309)
+	Finished studentGrowthProjections: Saturday January 14 17:26:55 2017 in 2.066 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:52 2017
+		Content Area: READING, Year: 2014, Grade Progression: 6, 7, 8 LAGGED.BASELINE (N=330)
+	Finished studentGrowthProjections: Saturday January 14 17:26:55 2017 in 2.604 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:55 2017
+		Content Area: READING, Year: 2013, Grade Progression: 2, 3 LAGGED.BASELINE (N=625)
+	Finished studentGrowthProjections: Saturday January 14 17:27:00 2017 in 5.052 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:54 2017
+		Content Area: READING, Year: 2013, Grade Progression: 0 LAGGED.BASELINE (N=763)
+	Finished studentGrowthProjections: Saturday January 14 17:27:01 2017 in 6.573 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:55 2017
+		Content Area: READING, Year: 2013, Grade Progression: 1, 2 LAGGED.BASELINE (N=787)
+	Finished studentGrowthProjections: Saturday January 14 17:27:01 2017 in 6.43 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:26:54 2017
+		Content Area: READING, Year: 2013, Grade Progression: 0, 1 LAGGED.BASELINE (N=887)
+	Finished studentGrowthProjections: Saturday January 14 17:27:02 2017 in 7.694 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:01 2017
+		Content Area: READING, Year: 2013, Grade Progression: 4, 5 LAGGED.BASELINE (N=405)
+	Finished studentGrowthProjections: Saturday January 14 17:27:04 2017 in 3.441 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:00 2017
+		Content Area: READING, Year: 2013, Grade Progression: 3, 4 LAGGED.BASELINE (N=451)
+	Finished studentGrowthProjections: Saturday January 14 17:27:04 2017 in 4.162 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:01 2017
+		Content Area: READING, Year: 2013, Grade Progression: 5, 6 LAGGED.BASELINE (N=367)
+	Finished studentGrowthProjections: Saturday January 14 17:27:04 2017 in 3.078 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:02 2017
+		Content Area: READING, Year: 2013, Grade Progression: 6, 7 LAGGED.BASELINE (N=359)
+	Finished studentGrowthProjections: Saturday January 14 17:27:05 2017 in 2.633 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:04 2017
+		Content Area: READING, Year: 2013, Grade Progression: 9, 10 LAGGED.BASELINE (N=257)
+	Finished studentGrowthProjections: Saturday January 14 17:27:06 2017 in 1.283 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:05 2017
+		Content Area: READING, Year: 2013, Grade Progression: 10, 11 LAGGED.BASELINE (N=210)
+	Finished studentGrowthProjections: Saturday January 14 17:27:06 2017 in 1.03 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:04 2017
+		Content Area: READING, Year: 2013, Grade Progression: 8, 9 LAGGED.BASELINE (N=291)
+	Finished studentGrowthProjections: Saturday January 14 17:27:06 2017 in 1.74 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:04 2017
+		Content Area: READING, Year: 2013, Grade Progression: 7, 8 LAGGED.BASELINE (N=299)
+	Finished studentGrowthProjections: Saturday January 14 17:27:06 2017 in 2.205 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:07 2017
+		Content Area: READING, Year: 2012, Grade Progression: 3 LAGGED.BASELINE (N=514)
+	Finished studentGrowthProjections: Saturday January 14 17:27:10 2017 in 3.951 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:06 2017
+		Content Area: READING, Year: 2012, Grade Progression: 2 LAGGED.BASELINE (N=881)
+	Finished studentGrowthProjections: Saturday January 14 17:27:12 2017 in 5.573 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:06 2017
+		Content Area: READING, Year: 2012, Grade Progression: 1 LAGGED.BASELINE (N=845)
+	Finished studentGrowthProjections: Saturday January 14 17:27:12 2017 in 6.157 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:06 2017
+		Content Area: READING, Year: 2012, Grade Progression: 0 LAGGED.BASELINE (N=886)
+	Finished studentGrowthProjections: Saturday January 14 17:27:13 2017 in 6.863 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:11 2017
+		Content Area: READING, Year: 2012, Grade Progression: 4 LAGGED.BASELINE (N=491)
+	Finished studentGrowthProjections: Saturday January 14 17:27:14 2017 in 3.585 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:12 2017
+		Content Area: READING, Year: 2012, Grade Progression: 5 LAGGED.BASELINE (N=368)
+	Finished studentGrowthProjections: Saturday January 14 17:27:14 2017 in 2.642 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:12 2017
+		Content Area: READING, Year: 2012, Grade Progression: 6 LAGGED.BASELINE (N=346)
+	Finished studentGrowthProjections: Saturday January 14 17:27:15 2017 in 2.417 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:13 2017
+		Content Area: READING, Year: 2012, Grade Progression: 7 LAGGED.BASELINE (N=335)
+	Finished studentGrowthProjections: Saturday January 14 17:27:15 2017 in 2.179 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:14 2017
+		Content Area: READING, Year: 2012, Grade Progression: 8 LAGGED.BASELINE (N=267)
+	Finished studentGrowthProjections: Saturday January 14 17:27:16 2017 in 1.567 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:15 2017
+		Content Area: READING, Year: 2012, Grade Progression: 11 LAGGED.BASELINE (N=182)
+	Started studentGrowthProjections: Saturday January 14 17:27:15 2017
+	Finished studentGrowthProjections: Saturday January 14 17:27:16 2017 in 0.848 Seconds
+
+		Content Area: READING, Year: 2012, Grade Progression: 10 LAGGED.BASELINE (N=244)
+	Finished studentGrowthProjections: Saturday January 14 17:27:16 2017 in 1.066 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:15 2017
+		Content Area: READING, Year: 2012, Grade Progression: 9 LAGGED.BASELINE (N=286)
+	Finished studentGrowthProjections: Saturday January 14 17:27:16 2017 in 1.375 Seconds
+
+Finished analyzeSGP Saturday January 14 17:27:33 2017 in 2 Minutes, 28 Seconds 
+
+Started combineSGP Saturday January 14 17:27:33 2017
+	Started studentGrowthProjections: Saturday January 14 17:27:36 2017
+		Content Area: READING, Year: 2012, Grade Progression: 2 BASELINE.TARGET_SCALE_SCORES (N=1,011)
+	Finished studentGrowthProjections: Saturday January 14 17:27:39 2017 in 2.626 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:36 2017
+		Content Area: READING, Year: 2012, Grade Progression: 1 BASELINE.TARGET_SCALE_SCORES (N=1,091)
+	Finished studentGrowthProjections: Saturday January 14 17:27:39 2017 in 2.8 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:36 2017
+		Content Area: READING, Year: 2012, Grade Progression: 0 BASELINE.TARGET_SCALE_SCORES (N=995)
+	Finished studentGrowthProjections: Saturday January 14 17:27:39 2017 in 2.844 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:36 2017
+		Content Area: READING, Year: 2012, Grade Progression: 3 BASELINE.TARGET_SCALE_SCORES (N=1,046)
+	Finished studentGrowthProjections: Saturday January 14 17:27:39 2017 in 3.073 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:39 2017
+		Content Area: READING, Year: 2012, Grade Progression: 6 BASELINE.TARGET_SCALE_SCORES (N=505)
+	Finished studentGrowthProjections: Saturday January 14 17:27:41 2017 in 2.11 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:39 2017
+		Content Area: READING, Year: 2012, Grade Progression: 4 BASELINE.TARGET_SCALE_SCORES (N=670)
+	Finished studentGrowthProjections: Saturday January 14 17:27:41 2017 in 2.38 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:39 2017
+		Content Area: READING, Year: 2012, Grade Progression: 5 BASELINE.TARGET_SCALE_SCORES (N=646)
+	Finished studentGrowthProjections: Saturday January 14 17:27:41 2017 in 2.356 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:39 2017
+		Content Area: READING, Year: 2012, Grade Progression: 7 BASELINE.TARGET_SCALE_SCORES (N=488)
+	Finished studentGrowthProjections: Saturday January 14 17:27:41 2017 in 2.065 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:41 2017
+		Content Area: READING, Year: 2012, Grade Progression: 10 BASELINE.TARGET_SCALE_SCORES (N=443)
+	Finished studentGrowthProjections: Saturday January 14 17:27:42 2017 in 1.081 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:41 2017
+		Content Area: READING, Year: 2012, Grade Progression: 9 BASELINE.TARGET_SCALE_SCORES (N=515)
+	Finished studentGrowthProjections: Saturday January 14 17:27:43 2017 in 1.429 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:41 2017
+		Content Area: READING, Year: 2012, Grade Progression: 8 BASELINE.TARGET_SCALE_SCORES (N=482)
+	Finished studentGrowthProjections: Saturday January 14 17:27:43 2017 in 1.65 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:42 2017
+		Content Area: READING, Year: 2013, Grade Progression: 0 BASELINE.TARGET_SCALE_SCORES (N=1,259)
+	Finished studentGrowthProjections: Saturday January 14 17:27:45 2017 in 3.347 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:42 2017
+		Content Area: READING, Year: 2013, Grade Progression: 0, 1 BASELINE.TARGET_SCALE_SCORES (N=956)
+	Finished studentGrowthProjections: Saturday January 14 17:27:46 2017 in 3.353 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:43 2017
+		Content Area: READING, Year: 2013, Grade Progression: 1, 2 BASELINE.TARGET_SCALE_SCORES (N=1,068)
+	Finished studentGrowthProjections: Saturday January 14 17:27:46 2017 in 3.547 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:43 2017
+		Content Area: READING, Year: 2013, Grade Progression: 2, 3 BASELINE.TARGET_SCALE_SCORES (N=993)
+	Finished studentGrowthProjections: Saturday January 14 17:27:47 2017 in 3.683 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:45 2017
+		Content Area: READING, Year: 2013, Grade Progression: 3, 4 BASELINE.TARGET_SCALE_SCORES (N=781)
+	Finished studentGrowthProjections: Saturday January 14 17:27:48 2017 in 3.024 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:46 2017
+		Content Area: READING, Year: 2013, Grade Progression: 4, 5 BASELINE.TARGET_SCALE_SCORES (N=611)
+	Finished studentGrowthProjections: Saturday January 14 17:27:49 2017 in 2.757 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:46 2017
+		Content Area: READING, Year: 2013, Grade Progression: 5, 6 BASELINE.TARGET_SCALE_SCORES (N=570)
+	Finished studentGrowthProjections: Saturday January 14 17:27:49 2017 in 2.738 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:47 2017
+		Content Area: READING, Year: 2013, Grade Progression: 6, 7 BASELINE.TARGET_SCALE_SCORES (N=517)
+	Finished studentGrowthProjections: Saturday January 14 17:27:49 2017 in 2.693 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:48 2017
+		Content Area: READING, Year: 2013, Grade Progression: 7, 8 BASELINE.TARGET_SCALE_SCORES (N=490)
+	Finished studentGrowthProjections: Saturday January 14 17:27:50 2017 in 2.107 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:49 2017
+		Content Area: READING, Year: 2013, Grade Progression: 9, 10 BASELINE.TARGET_SCALE_SCORES (N=446)
+	Finished studentGrowthProjections: Saturday January 14 17:27:50 2017 in 1.384 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:49 2017
+		Content Area: READING, Year: 2013, Grade Progression: 8, 9 BASELINE.TARGET_SCALE_SCORES (N=524)
+	Finished studentGrowthProjections: Saturday January 14 17:27:51 2017 in 1.888 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:49 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0 BASELINE.TARGET_SCALE_SCORES (N=1,223)
+	Finished studentGrowthProjections: Saturday January 14 17:27:52 2017 in 3.17 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:50 2017
+		Content Area: READING, Year: 2014, Grade Progression: 1, 2 BASELINE.TARGET_SCALE_SCORES (N=1,117)
+	Finished studentGrowthProjections: Saturday January 14 17:27:54 2017 in 3.809 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:51 2017
+		Content Area: READING, Year: 2014, Grade Progression: 2, 3 BASELINE.TARGET_SCALE_SCORES (N=1,095)
+	Finished studentGrowthProjections: Saturday January 14 17:27:55 2017 in 3.936 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:50 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0, 1 BASELINE.TARGET_SCALE_SCORES (N=1,327)
+	Finished studentGrowthProjections: Saturday January 14 17:27:55 2017 in 4.573 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:53 2017
+		Content Area: READING, Year: 2014, Grade Progression: 3, 4 BASELINE.TARGET_SCALE_SCORES (N=835)
+	Finished studentGrowthProjections: Saturday January 14 17:27:56 2017 in 3.255 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:55 2017
+		Content Area: READING, Year: 2014, Grade Progression: 5, 6 BASELINE.TARGET_SCALE_SCORES (N=547)
+	Finished studentGrowthProjections: Saturday January 14 17:27:57 2017 in 2.784 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:54 2017
+		Content Area: READING, Year: 2014, Grade Progression: 4, 5 BASELINE.TARGET_SCALE_SCORES (N=647)
+	Finished studentGrowthProjections: Saturday January 14 17:27:58 2017 in 3.27 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:55 2017
+		Content Area: READING, Year: 2014, Grade Progression: 6, 7 BASELINE.TARGET_SCALE_SCORES (N=559)
+	Finished studentGrowthProjections: Saturday January 14 17:27:58 2017 in 2.896 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:56 2017
+		Content Area: READING, Year: 2014, Grade Progression: 7, 8 BASELINE.TARGET_SCALE_SCORES (N=516)
+	Finished studentGrowthProjections: Saturday January 14 17:27:58 2017 in 2.506 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:58 2017
+		Content Area: READING, Year: 2014, Grade Progression: 9, 10 BASELINE.TARGET_SCALE_SCORES (N=503)
+	Finished studentGrowthProjections: Saturday January 14 17:27:59 2017 in 1.402 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:57 2017
+		Content Area: READING, Year: 2014, Grade Progression: 8, 9 BASELINE.TARGET_SCALE_SCORES (N=595)
+	Finished studentGrowthProjections: Saturday January 14 17:27:59 2017 in 1.982 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:58 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0 BASELINE.TARGET_SCALE_SCORES (N=1,160)
+	Finished studentGrowthProjections: Saturday January 14 17:28:01 2017 in 3.348 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:58 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0, 1 BASELINE.TARGET_SCALE_SCORES (N=1,291)
+	Finished studentGrowthProjections: Saturday January 14 17:28:03 2017 in 4.153 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:59 2017
+		Content Area: READING, Year: 2015, Grade Progression: 2, 3 BASELINE.TARGET_SCALE_SCORES (N=1,096)
+	Finished studentGrowthProjections: Saturday January 14 17:28:03 2017 in 3.745 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:27:59 2017
+		Content Area: READING, Year: 2015, Grade Progression: 1, 2 BASELINE.TARGET_SCALE_SCORES (N=1,339)
+	Finished studentGrowthProjections: Saturday January 14 17:28:04 2017 in 4.467 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:01 2017
+		Content Area: READING, Year: 2015, Grade Progression: 3, 4 BASELINE.TARGET_SCALE_SCORES (N=835)
+	Finished studentGrowthProjections: Saturday January 14 17:28:05 2017 in 3.404 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:03 2017
+		Content Area: READING, Year: 2015, Grade Progression: 4, 5 BASELINE.TARGET_SCALE_SCORES (N=608)
+	Finished studentGrowthProjections: Saturday January 14 17:28:05 2017 in 2.822 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:03 2017
+		Content Area: READING, Year: 2015, Grade Progression: 5, 6 BASELINE.TARGET_SCALE_SCORES (N=556)
+	Finished studentGrowthProjections: Saturday January 14 17:28:06 2017 in 2.715 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:04 2017
+		Content Area: READING, Year: 2015, Grade Progression: 6, 7 BASELINE.TARGET_SCALE_SCORES (N=597)
+	Finished studentGrowthProjections: Saturday January 14 17:28:06 2017 in 2.718 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:05 2017
+		Content Area: READING, Year: 2015, Grade Progression: 7, 8 BASELINE.TARGET_SCALE_SCORES (N=600)
+	Finished studentGrowthProjections: Saturday January 14 17:28:07 2017 in 2.475 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:06 2017
+		Content Area: READING, Year: 2015, Grade Progression: 9, 10 BASELINE.TARGET_SCALE_SCORES (N=476)
+	Finished studentGrowthProjections: Saturday January 14 17:28:07 2017 in 1.295 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:06 2017
+		Content Area: READING, Year: 2015, Grade Progression: 8, 9 BASELINE.TARGET_SCALE_SCORES (N=722)
+	Finished studentGrowthProjections: Saturday January 14 17:28:08 2017 in 2.191 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:06 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0 BASELINE.TARGET_SCALE_SCORES (N=1,165)
+	Finished studentGrowthProjections: Saturday January 14 17:28:10 2017 in 3.539 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:07 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0, 1 BASELINE.TARGET_SCALE_SCORES (N=1,215)
+	Finished studentGrowthProjections: Saturday January 14 17:28:11 2017 in 4.164 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:08 2017
+		Content Area: READING, Year: 2016, Grade Progression: 2, 3 BASELINE.TARGET_SCALE_SCORES (N=1,208)
+	Finished studentGrowthProjections: Saturday January 14 17:28:12 2017 in 4.109 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:07 2017
+		Content Area: READING, Year: 2016, Grade Progression: 1, 2 BASELINE.TARGET_SCALE_SCORES (N=1,303)
+	Finished studentGrowthProjections: Saturday January 14 17:28:12 2017 in 4.676 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:10 2017
+		Content Area: READING, Year: 2016, Grade Progression: 3, 4 BASELINE.TARGET_SCALE_SCORES (N=837)
+	Finished studentGrowthProjections: Saturday January 14 17:28:14 2017 in 3.446 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:11 2017
+		Content Area: READING, Year: 2016, Grade Progression: 4, 5 BASELINE.TARGET_SCALE_SCORES (N=664)
+	Finished studentGrowthProjections: Saturday January 14 17:28:14 2017 in 3.062 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:12 2017
+		Content Area: READING, Year: 2016, Grade Progression: 5, 6 BASELINE.TARGET_SCALE_SCORES (N=558)
+	Finished studentGrowthProjections: Saturday January 14 17:28:15 2017 in 2.879 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:12 2017
+		Content Area: READING, Year: 2016, Grade Progression: 6, 7 BASELINE.TARGET_SCALE_SCORES (N=589)
+	Finished studentGrowthProjections: Saturday January 14 17:28:15 2017 in 2.86 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:14 2017
+		Content Area: READING, Year: 2016, Grade Progression: 7, 8 BASELINE.TARGET_SCALE_SCORES (N=668)
+	Finished studentGrowthProjections: Saturday January 14 17:28:16 2017 in 2.499 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:15 2017
+		Content Area: READING, Year: 2016, Grade Progression: 9, 10 BASELINE.TARGET_SCALE_SCORES (N=598)
+	Finished studentGrowthProjections: Saturday January 14 17:28:16 2017 in 1.326 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:14 2017
+		Content Area: READING, Year: 2016, Grade Progression: 8, 9 BASELINE.TARGET_SCALE_SCORES (N=905)
+	Finished studentGrowthProjections: Saturday January 14 17:28:17 2017 in 2.023 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:19 2017
+		Content Area: READING, Year: 2012, Grade Progression: 3 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=514)
+	Finished studentGrowthProjections: Saturday January 14 17:28:21 2017 in 1.786 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:19 2017
+		Content Area: READING, Year: 2012, Grade Progression: 1 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=845)
+	Finished studentGrowthProjections: Saturday January 14 17:28:21 2017 in 2.328 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:19 2017
+		Content Area: READING, Year: 2012, Grade Progression: 0 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=886)
+	Finished studentGrowthProjections: Saturday January 14 17:28:21 2017 in 2.42 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:19 2017
+		Content Area: READING, Year: 2012, Grade Progression: 2 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=881)
+	Finished studentGrowthProjections: Saturday January 14 17:28:22 2017 in 2.64 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:21 2017
+		Content Area: READING, Year: 2012, Grade Progression: 4 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=491)
+	Finished studentGrowthProjections: Saturday January 14 17:28:23 2017 in 1.969 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:21 2017
+	Started studentGrowthProjections: Saturday January 14 17:28:21 2017
+		Content Area: READING, Year: 2012, Grade Progression: 5 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=368)
+		Content Area: READING, Year: 2012, Grade Progression: 6 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=346)
+	Finished studentGrowthProjections: Saturday January 14 17:28:23 2017 in 1.941 Seconds
+
+	Finished studentGrowthProjections: Saturday January 14 17:28:23 2017 in 1.834 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:22 2017
+		Content Area: READING, Year: 2012, Grade Progression: 7 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=335)
+	Finished studentGrowthProjections: Saturday January 14 17:28:23 2017 in 1.813 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:24 2017
+		Content Area: READING, Year: 2012, Grade Progression: 11 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=182)
+	Finished studentGrowthProjections: Saturday January 14 17:28:24 2017 in 0.34 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:23 2017
+		Content Area: READING, Year: 2012, Grade Progression: 10 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=244)
+	Finished studentGrowthProjections: Saturday January 14 17:28:24 2017 in 0.622 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:23 2017
+		Content Area: READING, Year: 2012, Grade Progression: 8 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=267)
+	Finished studentGrowthProjections: Saturday January 14 17:28:24 2017 in 1.277 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:23 2017
+		Content Area: READING, Year: 2012, Grade Progression: 9 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=286)
+	Finished studentGrowthProjections: Saturday January 14 17:28:24 2017 in 0.962 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:24 2017
+		Content Area: READING, Year: 2013, Grade Progression: 0 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=763)
+	Finished studentGrowthProjections: Saturday January 14 17:28:27 2017 in 2.656 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:24 2017
+		Content Area: READING, Year: 2013, Grade Progression: 2, 3 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=625)
+	Finished studentGrowthProjections: Saturday January 14 17:28:27 2017 in 2.681 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:24 2017
+		Content Area: READING, Year: 2013, Grade Progression: 1, 2 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=787)
+	Finished studentGrowthProjections: Saturday January 14 17:28:27 2017 in 3.292 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:24 2017
+		Content Area: READING, Year: 2013, Grade Progression: 0, 1 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=887)
+	Finished studentGrowthProjections: Saturday January 14 17:28:27 2017 in 3.458 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:27 2017
+		Content Area: READING, Year: 2013, Grade Progression: 3, 4 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=451)
+	Finished studentGrowthProjections: Saturday January 14 17:28:29 2017 in 2.726 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:27 2017
+		Content Area: READING, Year: 2013, Grade Progression: 4, 5 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=405)
+	Finished studentGrowthProjections: Saturday January 14 17:28:30 2017 in 2.783 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:28 2017
+		Content Area: READING, Year: 2013, Grade Progression: 5, 6 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=367)
+	Started studentGrowthProjections: Saturday January 14 17:28:28 2017
+	Finished studentGrowthProjections: Saturday January 14 17:28:30 2017 in 2.579 Seconds
+
+		Content Area: READING, Year: 2013, Grade Progression: 6, 7 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=359)
+	Finished studentGrowthProjections: Saturday January 14 17:28:30 2017 in 2.576 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:30 2017
+		Content Area: READING, Year: 2013, Grade Progression: 10, 11 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=210)
+	Finished studentGrowthProjections: Saturday January 14 17:28:31 2017 in 0.663 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:30 2017
+		Content Area: READING, Year: 2013, Grade Progression: 9, 10 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=257)
+	Finished studentGrowthProjections: Saturday January 14 17:28:31 2017 in 1.05 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:30 2017
+		Content Area: READING, Year: 2013, Grade Progression: 8, 9 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=291)
+	Finished studentGrowthProjections: Saturday January 14 17:28:32 2017 in 1.571 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:29 2017
+		Content Area: READING, Year: 2013, Grade Progression: 7, 8 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=299)
+	Finished studentGrowthProjections: Saturday January 14 17:28:32 2017 in 2.499 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:31 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=1,125)
+	Finished studentGrowthProjections: Saturday January 14 17:28:35 2017 in 3.964 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:31 2017
+		Content Area: READING, Year: 2014, Grade Progression: 0, 1 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=847)
+	Finished studentGrowthProjections: Saturday January 14 17:28:35 2017 in 4.098 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:32 2017
+		Content Area: READING, Year: 2014, Grade Progression: 2, 3 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=651)
+	Finished studentGrowthProjections: Saturday January 14 17:28:36 2017 in 3.555 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:32 2017
+		Content Area: READING, Year: 2014, Grade Progression: 1, 2 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=886)
+	Finished studentGrowthProjections: Saturday January 14 17:28:36 2017 in 4.725 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:35 2017
+		Content Area: READING, Year: 2014, Grade Progression: 3, 4 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=473)
+	Finished studentGrowthProjections: Saturday January 14 17:28:39 2017 in 3.542 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:36 2017
+		Content Area: READING, Year: 2014, Grade Progression: 4, 5 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=394)
+	Finished studentGrowthProjections: Saturday January 14 17:28:39 2017 in 3.285 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:36 2017
+		Content Area: READING, Year: 2014, Grade Progression: 5, 6 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=422)
+	Finished studentGrowthProjections: Saturday January 14 17:28:39 2017 in 3.376 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:36 2017
+		Content Area: READING, Year: 2014, Grade Progression: 6, 7 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=376)
+	Finished studentGrowthProjections: Saturday January 14 17:28:40 2017 in 3.228 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:39 2017
+		Content Area: READING, Year: 2014, Grade Progression: 9, 10 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=273)
+	Finished studentGrowthProjections: Saturday January 14 17:28:40 2017 in 1.004 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:39 2017
+		Content Area: READING, Year: 2014, Grade Progression: 8, 9 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=309)
+	Finished studentGrowthProjections: Saturday January 14 17:28:40 2017 in 1.486 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:40 2017
+		Content Area: READING, Year: 2014, Grade Progression: 10, 11 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=223)
+	Finished studentGrowthProjections: Saturday January 14 17:28:40 2017 in 0.66 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:39 2017
+		Content Area: READING, Year: 2014, Grade Progression: 7, 8 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=330)
+	Finished studentGrowthProjections: Saturday January 14 17:28:41 2017 in 2.444 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:40 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=1,064)
+	Finished studentGrowthProjections: Saturday January 14 17:28:44 2017 in 3.377 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:41 2017
+		Content Area: READING, Year: 2015, Grade Progression: 2, 3 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=662)
+	Finished studentGrowthProjections: Saturday January 14 17:28:44 2017 in 2.997 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:40 2017
+		Content Area: READING, Year: 2015, Grade Progression: 1, 2 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=921)
+	Finished studentGrowthProjections: Saturday January 14 17:28:44 2017 in 3.875 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:40 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0, 1 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=1,142)
+	Finished studentGrowthProjections: Saturday January 14 17:28:45 2017 in 4.398 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:44 2017
+		Content Area: READING, Year: 2015, Grade Progression: 3, 4 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=463)
+	Finished studentGrowthProjections: Saturday January 14 17:28:47 2017 in 3.051 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:44 2017
+		Content Area: READING, Year: 2015, Grade Progression: 4, 5 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=408)
+	Finished studentGrowthProjections: Saturday January 14 17:28:47 2017 in 2.941 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:44 2017
+		Content Area: READING, Year: 2015, Grade Progression: 5, 6 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=428)
+	Finished studentGrowthProjections: Saturday January 14 17:28:47 2017 in 2.98 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:45 2017
+		Content Area: READING, Year: 2015, Grade Progression: 6, 7 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=435)
+	Finished studentGrowthProjections: Saturday January 14 17:28:48 2017 in 3.05 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:48 2017
+		Content Area: READING, Year: 2015, Grade Progression: 10, 11 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=199)
+	Finished studentGrowthProjections: Saturday January 14 17:28:49 2017 in 0.573 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:47 2017
+		Content Area: READING, Year: 2015, Grade Progression: 9, 10 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=286)
+	Finished studentGrowthProjections: Saturday January 14 17:28:49 2017 in 1.476 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:47 2017
+		Content Area: READING, Year: 2015, Grade Progression: 8, 9 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=323)
+	Finished studentGrowthProjections: Saturday January 14 17:28:49 2017 in 1.917 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:47 2017
+		Content Area: READING, Year: 2015, Grade Progression: 7, 8 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=360)
+	Finished studentGrowthProjections: Saturday January 14 17:28:49 2017 in 2.641 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:49 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=988)
+	Finished studentGrowthProjections: Saturday January 14 17:28:52 2017 in 3.211 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:49 2017
+		Content Area: READING, Year: 2016, Grade Progression: 2, 3 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=644)
+	Finished studentGrowthProjections: Saturday January 14 17:28:52 2017 in 2.991 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:49 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0, 1 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=1,088)
+	Finished studentGrowthProjections: Saturday January 14 17:28:53 2017 in 4.081 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:49 2017
+		Content Area: READING, Year: 2016, Grade Progression: 1, 2 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=1,040)
+	Finished studentGrowthProjections: Saturday January 14 17:28:53 2017 in 4.064 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:52 2017
+		Content Area: READING, Year: 2016, Grade Progression: 3, 4 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=499)
+	Finished studentGrowthProjections: Saturday January 14 17:28:55 2017 in 2.911 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:53 2017
+		Content Area: READING, Year: 2016, Grade Progression: 4, 5 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=394)
+	Finished studentGrowthProjections: Saturday January 14 17:28:55 2017 in 2.769 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:53 2017
+		Content Area: READING, Year: 2016, Grade Progression: 5, 6 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=450)
+	Finished studentGrowthProjections: Saturday January 14 17:28:56 2017 in 2.907 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:53 2017
+		Content Area: READING, Year: 2016, Grade Progression: 6, 7 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=485)
+	Finished studentGrowthProjections: Saturday January 14 17:28:56 2017 in 2.93 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:56 2017
+		Content Area: READING, Year: 2016, Grade Progression: 10, 11 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=219)
+	Finished studentGrowthProjections: Saturday January 14 17:28:57 2017 in 0.523 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:56 2017
+		Content Area: READING, Year: 2016, Grade Progression: 8, 9 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=410)
+	Finished studentGrowthProjections: Saturday January 14 17:28:57 2017 in 1.821 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:55 2017
+		Content Area: READING, Year: 2016, Grade Progression: 7, 8 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=454)
+	Finished studentGrowthProjections: Saturday January 14 17:28:58 2017 in 2.536 Seconds
+
+	Started studentGrowthProjections: Saturday January 14 17:28:56 2017
+		Content Area: READING, Year: 2016, Grade Progression: 9, 10 LAGGED.BASELINE.TARGET_SCALE_SCORES (N=256)
+	Finished studentGrowthProjections: Saturday January 14 17:28:58 2017 in 1.466 Seconds
+
+Finished combineSGP Saturday January 14 17:28:58 2017 in 1 Minute, 25 Seconds 
+
+
+Started visualizeSGP Saturday January 14 17:28:58 2017 
+
+Started growthAchievementPlot in visualizeSGP Saturday January 14 17:28:58 2017 
+
+Finished growthAchievementPlot in visualizeSGP Saturday January 14 17:31:37 2017 in 2 Minutes, 39 Seconds 
+
+Started studentGrowthPlot in visualizeSGP Saturday January 14 17:31:37 2017 
+
+Finished studentGrowthPlot in visualizeSGP Saturday January 14 17:32:50 2017 in 1 Minute, 13 Seconds 
+
+Finished visualizeSGP Saturday January 14 17:32:50 2017 in 3 Minutes, 52 Seconds 
+
+
+Started outputSGP Saturday January 14 17:32:50 2017: Files produced from outputSGP saved in 'Data'
+
+
+
+	outputSGP(
+		 sgp_object = sgp_object
+		state = state
+		output.type = outputSGP.output.type
+		outputSGP_SUMMARY.years = years
+		outputSGP_SUMMARY.content_areas = content_areas
+		outputSGP_INDIVIDUAL.years = years
+		outputSGP_INDIVIDUAL.content_areas = content_areas
+		outputSGP.student.groups = intersect(names(sgp_object@Data), subset(sgp_object@Names, names.type == "demographic" & names.output == TRUE, select = names.provided, drop = TRUE)) )
+
+	Started LONG data production in outputSGP Saturday January 14 17:32:50 2017
+	Finished LONG data production in outputSGP Saturday January 14 17:32:51 2017 in 0.747 Seconds 
+
+	Started LONG FINAL YEAR data production in outputSGP Saturday January 14 17:32:51 2017
+	Finished LONG FINAL YEAR data production in outputSGP Saturday January 14 17:32:51 2017 in 0.219 Seconds 
+
+	Started WIDE data production in outputSGP Saturday January 14 17:32:51 2017
+	Finished WIDE data production in outputSGP Saturday January 14 17:32:52 2017 in 0.997 Seconds 
+
+Finished outputSGP Saturday January 14 17:32:52 2017 in 1.982 Seconds 
+
+Finished abcSGP Saturday January 14 17:32:52 2017 in 7 Minutes, 47 Seconds 
+

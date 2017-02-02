@@ -7,8 +7,6 @@
 ### Load SGP package
 
 require(SGP)
-options(error=recover)
-#options(warn=2)
 
 
 ### Load Data

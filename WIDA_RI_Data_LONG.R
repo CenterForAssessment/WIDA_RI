@@ -1,21 +1,10 @@
-#################################################################################
-###
-### Data preparation script for WIDA RI data, 2011-2016
-###
-#################################################################################
+####################################################################################
+###                                                                              ###
+###    Create LONG WIDA Rhode Island data from 2018-2019 and 2019-2020 base file ###
+###                                                                              ###
+####################################################################################
 
-### Load Packages
-
-require(data.table)
-
-
-### Utility function
-
-strtail <- function (s, n = 1) {
-    if (n < 0)
-        substring(s, 1 - n)
-    else substring(s, nchar(s) - n + 1)
-}
+### Utility functions
 
 strhead <- function (s, n) {
     if (n < 0)
@@ -23,43 +12,45 @@ strhead <- function (s, n) {
     else substr(s, 1, n)
 }
 
-### Load Data
-
-WIDA_RI_Data_LONG <- fread("Data/Base_Files/RI_ACCESS_2011_2016.csv", colClasses=rep("character", 5))
-
-### Clean Up Data
-
-setnames(WIDA_RI_Data_LONG, c("ID", "GRADE", "SCALE_SCORE", "PROF_LEVEL", "YEAR"))
-WIDA_RI_Data_LONG[, GRADE:=as.character(as.numeric(GRADE))]
-WIDA_RI_Data_LONG[,VALID_CASE := "VALID_CASE"]
-WIDA_RI_Data_LONG[,CONTENT_AREA := "READING"]
-WIDA_RI_Data_LONG[,YEAR := strtail(YEAR, 4)]
-WIDA_RI_Data_LONG[,SCALE_SCORE := as.numeric(SCALE_SCORE)]
-WIDA_RI_Data_LONG[,ACHIEVEMENT_LEVEL := as.character(WIDA_RI_Data_LONG$PROF_LEVEL)]
-WIDA_RI_Data_LONG[,ACHIEVEMENT_LEVEL := strhead(ACHIEVEMENT_LEVEL, 1)]
-WIDA_RI_Data_LONG[!is.na(ACHIEVEMENT_LEVEL), ACHIEVEMENT_LEVEL := paste("WIDA Level", ACHIEVEMENT_LEVEL)]
+### Load packages
+require(data.table)
 
 
-### Invalidate Cases with Scale Score out of Range (PROF_LEVEL in c("", " NA", "A1", "A2", "A3", "P1", "P2"))
 
-WIDA_RI_Data_LONG[nchar(ID)!=10, VALID_CASE := "INVALID_CASE"]
-WIDA_RI_Data_LONG[is.na(SCALE_SCORE), VALID_CASE := "INVALID_CASE"]
-WIDA_RI_Data_LONG[ACHIEVEMENT_LEVEL=="", VALID_CASE := "INVALID_CASE"]
+### Load data
+tmp_2017_2018 <- fread("Data/Base_Files/RI_Summative_StudRR_File_2018-06-07.csv", na.strings=c("NULL", "NA"))
+tmp_2018_2019 <- fread("Data/Base_Files/2019_ACCESS.txt", na.strings=c("NULL", "NA"))
+tmp_2019_2020 <- fread("Data/Base_Files/RI_Summative_StudRR_File_2020-06-22.csv", na.strings=c("NULL", "NA"))
 
+### Subset data
+variables.to.keep <- c("District Name", "District Number", "School Number", "School Name", "State Student ID", "Composite (Overall) Scale Score", "Composite (Overall) Proficiency Level", "Grade")
+tmp_2017_2018 <- tmp_2017_2018[,variables.to.keep, with=FALSE][,YEAR:="2018"]
+tmp_2018_2019 <- tmp_2018_2019[,variables.to.keep, with=FALSE][,YEAR:="2019"]
+tmp_2019_2020 <- tmp_2019_2020[,variables.to.keep, with=FALSE][,YEAR:="2020"]
 
-### Check for duplicates
+### Stack data
+WIDA_RI_Data_LONG <- rbindlist(list(tmp_2017_2018, tmp_2018_2019, tmp_2019_2020))
 
-setkey(WIDA_RI_Data_LONG, VALID_CASE, CONTENT_AREA, YEAR, ID, GRADE, SCALE_SCORE)
+### Rename variables
+old.names <- c("District Name", "District Number", "School Number", "School Name", "State Student ID", "Composite (Overall) Scale Score", "Composite (Overall) Proficiency Level", "Grade")
+new.names <- c("DISTRICT_NAME", "DISTRICT_NUMBER", "SCHOOL_NUMBER", "SCHOOL_NAME", "ID", "SCALE_SCORE", "ACHIEVEMENT_LEVEL_ORIGINAL", "GRADE")
+setnames(WIDA_RI_Data_LONG, old.names, new.names)
+
+### Tidy up variables
+WIDA_RI_Data_LONG[,ID:=as.character(ID)]
+WIDA_RI_Data_LONG[,SCALE_SCORE:=as.numeric(SCALE_SCORE)]
+WIDA_RI_Data_LONG[,ACHIEVEMENT_LEVEL_ORIGINAL:=as.character(ACHIEVEMENT_LEVEL_ORIGINAL)]
+WIDA_RI_Data_LONG[,ACHIEVEMENT_LEVEL:=strhead(ACHIEVEMENT_LEVEL_ORIGINAL, 1)]
+WIDA_RI_Data_LONG[!is.na(ACHIEVEMENT_LEVEL), ACHIEVEMENT_LEVEL:=paste("WIDA Level", ACHIEVEMENT_LEVEL)]
+WIDA_RI_Data_LONG[,GRADE:=as.character(as.numeric(GRADE))]
+WIDA_RI_Data_LONG[,CONTENT_AREA:="READING"]
+WIDA_RI_Data_LONG[,VALID_CASE:="VALID_CASE"]
+
+### Final tidy up
+setcolorder(WIDA_RI_Data_LONG, c("VALID_CASE", "CONTENT_AREA", "YEAR", "GRADE", "ID", "SCALE_SCORE", "ACHIEVEMENT_LEVEL", "ACHIEVEMENT_LEVEL_ORIGINAL", "SCHOOL_NUMBER", "SCHOOL_NAME", "DISTRICT_NUMBER", "DISTRICT_NAME"))
+setkey(WIDA_RI_Data_LONG, VALID_CASE, CONTENT_AREA, YEAR, ID, SCALE_SCORE)
 setkey(WIDA_RI_Data_LONG, VALID_CASE, CONTENT_AREA, YEAR, ID)
 WIDA_RI_Data_LONG[which(duplicated(WIDA_RI_Data_LONG, by=key(WIDA_RI_Data_LONG)))-1, VALID_CASE := "INVALID_CASE"]
-setkey(WIDA_RI_Data_LONG, VALID_CASE, CONTENT_AREA, YEAR, ID)
 
-
-### Reorder
-
-setcolorder(WIDA_RI_Data_LONG, c("VALID_CASE", "ID", "CONTENT_AREA", "YEAR", "GRADE", "SCALE_SCORE", "ACHIEVEMENT_LEVEL", "PROF_LEVEL"))
-
-
-### Save data
-
+### Save results
 save(WIDA_RI_Data_LONG, file="Data/WIDA_RI_Data_LONG.Rdata")

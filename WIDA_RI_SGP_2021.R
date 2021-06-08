@@ -1,32 +1,31 @@
 ##########################################################################################
 ###
-### Script for calculating SGPs for 2019-2020 WIDA/ACCESS Rhode Island
+### Script for calculating SGPs for 2020-2021 WIDA/ACCESS Rhode Island
 ###
 ##########################################################################################
 
 ### Load SGP package
-
 require(SGP)
 
 
 ### Load Data
+load("Data/WIDA_RI_SGP.Rdata")
+load("Data/WIDA_RI_Data_LONG_2021.Rdata")
 
-load("Data/WIDA_RI_Data_LONG.Rdata")
-
-### Modify SGPstateData temporarily
-SGPstateData[["WIDA_RI"]][["Growth"]][["System_Type"]] <- "Cohort Referenced"
+###   Add single-cohort baseline matrices to SGPstateData
+SGPstateData <- SGPmatrices::addBaselineMatrices("WIDA_RI", "2021")
 
 ### Run analyses
-
-WIDA_RI_SGP <- abcSGP(
-		WIDA_RI_Data_LONG,
+WIDA_RI_SGP <- updateSGP(
+		WIDA_RI_SGP,
+		WIDA_RI_Data_LONG_2021,
 		steps=c("prepareSGP", "analyzeSGP", "combineSGP", "visualizeSGP", "outputSGP"),
 		sgp.percentiles=TRUE,
 		sgp.projections=TRUE,
 		sgp.projections.lagged=TRUE,
-		sgp.percentiles.baseline=FALSE,
-		sgp.projections.baseline=FALSE,
-		sgp.projections.lagged.baseline=FALSE,
+		sgp.percentiles.baseline=TRUE,
+		sgp.projections.baseline=TRUE,
+		sgp.projections.lagged.baseline=TRUE,
 		get.cohort.data.info=TRUE,
 		sgp.target.scale.scores=TRUE,
 		plot.types=c("growthAchievementPlot", "studentGrowthPlot"),
@@ -35,5 +34,4 @@ WIDA_RI_SGP <- abcSGP(
 
 
 ### Save results
-
 save(WIDA_RI_SGP, file="Data/WIDA_RI_SGP.Rdata")

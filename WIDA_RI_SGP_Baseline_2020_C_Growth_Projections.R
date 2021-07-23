@@ -12,6 +12,7 @@ load("Data/WIDA_RI_SGP.Rdata")
 
 ###   Add single-cohort baseline matrices to SGPstateData
 SGPstateData <- SGPmatrices::addBaselineMatrices("WIDA_RI", "2021")
+#SGPstateData <- SGPmatrices::addBaselineMatrices("WIDA", "2021", "WIDA_RI")
 
 #####
 ###   Run projections analysis - run abcSGP on object from BASELINE SGP analysis

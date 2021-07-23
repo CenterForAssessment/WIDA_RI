@@ -17,6 +17,7 @@ if (length(tmp.names <- grep("BASELINE|SS", names(WIDA_RI_SGP_LONG_Data))) > 0) 
 
 ###   Add single-cohort baseline matrices to SGPstateData
 SGPstateData <- SGPmatrices::addBaselineMatrices("WIDA_RI", "2021")
+#SGPstateData <- SGPmatrices::addBaselineMatrices("WIDA", "2021", "WIDA_RI")
 
 #####
 ###   Run BASELINE SGP analysis - create new WIDA_RI_SGP object with historical data

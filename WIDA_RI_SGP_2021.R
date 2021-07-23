@@ -14,6 +14,7 @@ load("Data/WIDA_RI_Data_LONG_2021.Rdata")
 
 ###   Add single-cohort baseline matrices to SGPstateData
 SGPstateData <- SGPmatrices::addBaselineMatrices("WIDA_RI", "2021")
+#SGPstateData <- SGPmatrices::addBaselineMatrices("WIDA", "2021", "WIDA_RI")
 
 ### Run analyses
 WIDA_RI_SGP <- updateSGP(
@@ -34,4 +35,4 @@ WIDA_RI_SGP <- updateSGP(
 
 
 ### Save results
-save(WIDA_RI_SGP, file="Data/WIDA_RI_SGP.Rdata")
+#save(WIDA_RI_SGP, file="Data/WIDA_RI_SGP.Rdata")
